@@ -1,6 +1,7 @@
 {
     "mcpServers": {
         "matlab-simulink-mcp": {
+            "type": "stdio",
             "command": "uvx",
             "args": [
                 "--from",
