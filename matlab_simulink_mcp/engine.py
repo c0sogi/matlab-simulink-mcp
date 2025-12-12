@@ -60,15 +60,20 @@ class MatlabEngine(metaclass=Singleton["MatlabEngine"]):
 
         # Add helpers to MATLAB path once (include subfolders).
         # Helpers are named `mcp_*` to avoid collisions, so we don't need to
-        # prepend them ahead of toolboxes/current-folder.
-        self.logger.info(f"Adding helpers to MATLAB path: {self.helpers}")
-        helper_root = str(self.helpers)
+        # place them ahead of toolboxes/current-folder.
+        helpers_dir = self.helpers
+        if not helpers_dir.exists():
+            raise ToolError(f"MATLAB helper directory not found: {helpers_dir}")
+
+        self.logger.info(f"Adding helpers to MATLAB path: {helpers_dir}")
+        helper_root = str(helpers_dir)
         try:
             helper_paths = eng.genpath(helper_root, nargout=1)
         except Exception:
             helper_paths = helper_root
 
-        eng.addpath(helper_paths, nargout=0)
+        # Add at end to minimize the chance of shadowing toolbox functions.
+        eng.addpath(helper_paths, "-end", nargout=0)
 
         # Ensure MATLAB sees newly-added .m files immediately
         try:
