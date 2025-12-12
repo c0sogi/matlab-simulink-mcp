@@ -58,9 +58,24 @@ class MatlabEngine(metaclass=Singleton["MatlabEngine"]):
                 f"Started MATLAB engine is not of type MatlabEngine: {type(eng)}"
             )
 
-        #  Add helpers to MATLAB path once
+        # Add helpers to MATLAB path once (include subfolders).
+        # Helpers are named `mcp_*` to avoid collisions, so we don't need to
+        # prepend them ahead of toolboxes/current-folder.
         self.logger.info(f"Adding helpers to MATLAB path: {self.helpers}")
-        eng.addpath(str(self.helpers), nargout=0)
+        helper_root = str(self.helpers)
+        try:
+            helper_paths = eng.genpath(helper_root, nargout=1)
+        except Exception:
+            helper_paths = helper_root
+
+        eng.addpath(helper_paths, nargout=0)
+
+        # Ensure MATLAB sees newly-added .m files immediately
+        try:
+            eng.rehash(nargout=0)
+        except Exception:
+            pass
+
         return eng
 
     @cached_property

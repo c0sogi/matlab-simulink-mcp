@@ -59,6 +59,4 @@ def check_path(file: str):
     """Checks a given file path for absolute or parent paths and raises error if found."""
     f = Path(file)
     if f.is_absolute() or ".." in f.parts:
-        raise ToolError(
-            "Access to absolute or parent paths is forbidden. Only files on MATLAB path are usable."
-        )
+        raise ToolError("Access to absolute or parent paths is forbidden. Only files on MATLAB path are usable.")

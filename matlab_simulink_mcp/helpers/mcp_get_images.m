@@ -1,4 +1,4 @@
-function cwds = get_images()
+function cwds = mcp_get_images()
     figs = findall(0, 'type', 'figure');  
     num = numel(figs);
     if num == 0 

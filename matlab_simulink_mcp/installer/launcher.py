@@ -24,22 +24,26 @@ def run() -> int:
                 creationflags=subprocess.CREATE_NEW_CONSOLE,
             )
         elif sys.platform == "darwin":
-            proc = subprocess.Popen([
-                "open",
-                "-a",
-                "Terminal",
-                sys.executable,
-                "-m",
-                installer.__name__,
-            ])
+            proc = subprocess.Popen(
+                [
+                    "open",
+                    "-a",
+                    "Terminal",
+                    sys.executable,
+                    "-m",
+                    installer.__name__,
+                ]
+            )
         else:
-            proc = subprocess.Popen([
-                "x-terminal-emulator",
-                "-e",
-                sys.executable,
-                "-m",
-                installer.__name__,
-            ])
+            proc = subprocess.Popen(
+                [
+                    "x-terminal-emulator",
+                    "-e",
+                    sys.executable,
+                    "-m",
+                    installer.__name__,
+                ]
+            )
 
         # Wait for installation to finish
         ret = proc.wait()

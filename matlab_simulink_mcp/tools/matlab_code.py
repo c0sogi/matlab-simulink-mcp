@@ -4,7 +4,6 @@ from pathlib import Path
 
 from fastmcp import FastMCP
 from fastmcp.utilities.types import Image
-
 from matlab_simulink_mcp.constants import BLACKLIST_COMMANDS
 from matlab_simulink_mcp.engine import MatlabEngine
 from matlab_simulink_mcp.security import check_code, check_path
@@ -49,7 +48,10 @@ def register(mcp: FastMCP) -> None:
             f.write(code)
 
         issues: list[str] = list(
-            map(str, await asyncio.to_thread(eng.validate_code, path, nargout=1))  # pyright: ignore[reportArgumentType]
+            map(
+                str,
+                await asyncio.to_thread(eng.mcp_validate_code, path, nargout=1),  # pyright: ignore[reportArgumentType]
+            )
         )
         if issues:
             return "Code saved but failed validation with errors:\n" + "\n".join(issues)
@@ -87,20 +89,19 @@ def register(mcp: FastMCP) -> None:
                 abs_path = Path(f.name)
             pretext = "Could not run from current working directory. Running from temporary directory:\n"
 
-        text = clean_evalc(
-            str(
-                await asyncio.to_thread(eng.evalc, f"run('{str(abs_path)}')", nargout=1)
-            )
-        )
+        text = clean_evalc(str(await asyncio.to_thread(eng.evalc, f"run('{str(abs_path)}')", nargout=1)))
         if pretext:
             text = pretext + text
 
         abs_path.unlink(missing_ok=True)
 
-        await asyncio.to_thread(eng.format_system, nargout=0)
+        await asyncio.to_thread(eng.mcp_format_system, nargout=0)
 
         img_paths: list[str] = list(
-            map(str, await asyncio.to_thread(eng.get_images, nargout=1))  # pyright: ignore[reportArgumentType]
+            map(
+                str,
+                await asyncio.to_thread(eng.mcp_get_images, nargout=1),  # pyright: ignore[reportArgumentType]
+            )
         )
         imgs = [read_and_remove_image(Path(p)) for p in img_paths]
 

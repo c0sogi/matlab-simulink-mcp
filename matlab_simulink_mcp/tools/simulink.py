@@ -1,10 +1,10 @@
 import asyncio
 from difflib import SequenceMatcher
 from pathlib import Path
+from typing import Any
 
 from fastmcp import FastMCP
 from fastmcp.utilities.types import Image
-
 from matlab_simulink_mcp.constants import SIMLIB_DB
 from matlab_simulink_mcp.engine import MatlabEngine
 from matlab_simulink_mcp.security import check_path
@@ -37,17 +37,14 @@ def register(mcp: FastMCP) -> None:
         path = parent if not rest else f"{parent}/{rest}"
 
         if detail:
-            return SystemDescription.model_validate(
-                await asyncio.to_thread(
-                    eng.describe_system, path, parent, open, nargout=1
-                )
-            )
+            raw: Any = await asyncio.to_thread(eng.mcp_describe_system, path, parent, open, nargout=1)
+
+            # Helpers may return a MATLAB struct (dict-like) or a JSON string.
+            if isinstance(raw, str):
+                return SystemDescription.model_validate_json(raw)
+            return SystemDescription.model_validate(raw)
         else:
-            ss_path: str = str(
-                await asyncio.to_thread(
-                    eng.snapshot_system, path, parent, open, nargout=1
-                )
-            )
+            ss_path: str = str(await asyncio.to_thread(eng.mcp_snapshot_system, path, parent, open, nargout=1))
             return read_and_remove_image(Path(ss_path))
 
     @mcp.tool
@@ -58,14 +55,10 @@ def register(mcp: FastMCP) -> None:
         """
 
         simlib = SIMLIB_DB
-        candidates = [
-            (name, path) for name, entry in simlib.items() for path in entry["paths"]
-        ]
+        candidates = [(name, path) for name, entry in simlib.items() for path in entry["paths"]]
         ranked = sorted(
             candidates,
-            key=lambda item: SequenceMatcher(
-                None, query.lower(), item[0].lower()
-            ).ratio(),
+            key=lambda item: SequenceMatcher(None, query.lower(), item[0].lower()).ratio(),
             reverse=True,
         )
         return [path for _, path in ranked[:3]]

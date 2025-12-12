@@ -16,21 +16,15 @@ SIMLIB_DB = {
     },
     "Transfer Fcn Direct Form II": {
         "name": "Transfer Fcn Direct Form II",
-        "paths": [
-            "simulink/Additional Math & Discrete/Additional Discrete/Transfer Fcn Direct Form II"
-        ],
+        "paths": ["simulink/Additional Math & Discrete/Additional Discrete/Transfer Fcn Direct Form II"],
     },
     "Transfer Fcn Direct Form II Time Varying": {
         "name": "Transfer Fcn Direct Form II Time Varying",
-        "paths": [
-            "simulink/Additional Math & Discrete/Additional Discrete/Transfer Fcn Direct Form II Time Varying"
-        ],
+        "paths": ["simulink/Additional Math & Discrete/Additional Discrete/Transfer Fcn Direct Form II Time Varying"],
     },
     "Additional Math: Increment - Decrement": {
         "name": "Additional Math: Increment - Decrement",
-        "paths": [
-            "simulink/Additional Math & Discrete/Additional Math: Increment - Decrement"
-        ],
+        "paths": ["simulink/Additional Math & Discrete/Additional Math: Increment - Decrement"],
     },
     "Decrement Real World": {
         "name": "Decrement Real World",
@@ -48,15 +42,11 @@ SIMLIB_DB = {
     },
     "Decrement To Zero": {
         "name": "Decrement To Zero",
-        "paths": [
-            "simulink/Additional Math & Discrete/Additional Math: Increment - Decrement/Decrement To Zero"
-        ],
+        "paths": ["simulink/Additional Math & Discrete/Additional Math: Increment - Decrement/Decrement To Zero"],
     },
     "Decrement Time To Zero": {
         "name": "Decrement Time To Zero",
-        "paths": [
-            "simulink/Additional Math & Discrete/Additional Math: Increment - Decrement/Decrement Time To Zero"
-        ],
+        "paths": ["simulink/Additional Math & Discrete/Additional Math: Increment - Decrement/Decrement Time To Zero"],
     },
     "Increment Real World": {
         "name": "Increment Real World",
@@ -1559,21 +1549,15 @@ SIMLIB_DB = {
     },
     "Lookup with Akima spline Interpolation": {
         "name": "Lookup with Akima spline Interpolation",
-        "paths": [
-            "simulink/Quick Insert/Lookup Tables/Lookup with Akima spline Interpolation"
-        ],
+        "paths": ["simulink/Quick Insert/Lookup Tables/Lookup with Akima spline Interpolation"],
     },
     "Lookup with Linear Lagrange Interpolation": {
         "name": "Lookup with Linear Lagrange Interpolation",
-        "paths": [
-            "simulink/Quick Insert/Lookup Tables/Lookup with Linear Lagrange Interpolation"
-        ],
+        "paths": ["simulink/Quick Insert/Lookup Tables/Lookup with Linear Lagrange Interpolation"],
     },
     "Lookup with Linear Point-slope Interpolation": {
         "name": "Lookup with Linear Point-slope Interpolation",
-        "paths": [
-            "simulink/Quick Insert/Lookup Tables/Lookup with Linear Point-slope Interpolation"
-        ],
+        "paths": ["simulink/Quick Insert/Lookup Tables/Lookup with Linear Point-slope Interpolation"],
     },
     "SinCos Lookup": {
         "name": "SinCos Lookup",
@@ -2915,9 +2899,7 @@ SIMLIB_DB = {
     },
     "Direction Cosine Matrix Body to Wind to Alpha and Beta": {
         "name": "Direction Cosine Matrix Body to Wind to Alpha and Beta",
-        "paths": [
-            "aerolibtransform2/Direction Cosine Matrix Body to Wind to Alpha and Beta"
-        ],
+        "paths": ["aerolibtransform2/Direction Cosine Matrix Body to Wind to Alpha and Beta"],
     },
     "Direction Cosine Matrix ECEF to NED": {
         "name": "Direction Cosine Matrix ECEF to NED",
@@ -2925,9 +2907,7 @@ SIMLIB_DB = {
     },
     "Direction Cosine Matrix ECEF to NED to Latitude and Longitude": {
         "name": "Direction Cosine Matrix ECEF to NED to Latitude and Longitude",
-        "paths": [
-            "aerolibtransform2/Direction Cosine Matrix ECEF to NED to Latitude and Longitude"
-        ],
+        "paths": ["aerolibtransform2/Direction Cosine Matrix ECEF to NED to Latitude and Longitude"],
     },
     "Direction Cosine Matrix ECI to ECEF": {
         "name": "Direction Cosine Matrix ECI to ECEF",
@@ -3260,21 +3240,15 @@ SIMLIB_DB = {
     },
     "Von Karman Wind Turbulence Model  (Continuous (+q +r))": {
         "name": "Von Karman Wind Turbulence Model  (Continuous (+q +r))",
-        "paths": [
-            "aerolibwind2/Von Karman Wind Turbulence Model  (Continuous (+q +r))"
-        ],
+        "paths": ["aerolibwind2/Von Karman Wind Turbulence Model  (Continuous (+q +r))"],
     },
     "Von Karman Wind Turbulence Model  (Continuous (+q -r))": {
         "name": "Von Karman Wind Turbulence Model  (Continuous (+q -r))",
-        "paths": [
-            "aerolibwind2/Von Karman Wind Turbulence Model  (Continuous (+q -r))"
-        ],
+        "paths": ["aerolibwind2/Von Karman Wind Turbulence Model  (Continuous (+q -r))"],
     },
     "Von Karman Wind Turbulence Model  (Continuous (-q +r))": {
         "name": "Von Karman Wind Turbulence Model  (Continuous (-q +r))",
-        "paths": [
-            "aerolibwind2/Von Karman Wind Turbulence Model  (Continuous (-q +r))"
-        ],
+        "paths": ["aerolibwind2/Von Karman Wind Turbulence Model  (Continuous (-q +r))"],
     },
     "Wind Shear Model": {
         "name": "Wind Shear Model",
@@ -4673,9 +4647,7 @@ SIMLIB_DB = {
     },
     "Euler to NED Transformation HDL Optimized": {
         "name": "Euler to NED Transformation HDL Optimized",
-        "paths": [
-            "embeddedMatrixLib/Coordinate Transformations/Euler to NED Transformation HDL Optimized"
-        ],
+        "paths": ["embeddedMatrixLib/Coordinate Transformations/Euler to NED Transformation HDL Optimized"],
     },
     "CORDIC Sigmoid HDL Optimized": {
         "name": "CORDIC Sigmoid HDL Optimized",
@@ -4703,9 +4675,7 @@ SIMLIB_DB = {
     },
     "Normalized Reciprocal HDL Optimized": {
         "name": "Normalized Reciprocal HDL Optimized",
-        "paths": [
-            "embeddedMatrixLib/Math Operations/Normalized Reciprocal HDL Optimized"
-        ],
+        "paths": ["embeddedMatrixLib/Math Operations/Normalized Reciprocal HDL Optimized"],
     },
     "Real Divide HDL Optimized": {
         "name": "Real Divide HDL Optimized",
@@ -4721,9 +4691,7 @@ SIMLIB_DB = {
     },
     "Linear System Solvers": {
         "name": "Linear System Solvers",
-        "paths": [
-            "embeddedMatrixLib/Matrices and Linear Algebra/Linear System Solvers"
-        ],
+        "paths": ["embeddedMatrixLib/Matrices and Linear Algebra/Linear System Solvers"],
     },
     "Complex Burst Asynchronous Matrix Solve Using Q-less QR Decomposition": {
         "name": "Complex Burst Asynchronous Matrix Solve Using Q-less QR Decomposition",
@@ -4817,9 +4785,7 @@ SIMLIB_DB = {
     },
     "Matrix Factorizations": {
         "name": "Matrix Factorizations",
-        "paths": [
-            "embeddedMatrixLib/Matrices and Linear Algebra/Matrix Factorizations"
-        ],
+        "paths": ["embeddedMatrixLib/Matrices and Linear Algebra/Matrix Factorizations"],
     },
     "Complex Burst Q-less QR Decomposition": {
         "name": "Complex Burst Q-less QR Decomposition",
@@ -4841,9 +4807,7 @@ SIMLIB_DB = {
     },
     "Complex Burst QR Decomposition": {
         "name": "Complex Burst QR Decomposition",
-        "paths": [
-            "embeddedMatrixLib/Matrices and Linear Algebra/Matrix Factorizations/Complex Burst QR Decomposition"
-        ],
+        "paths": ["embeddedMatrixLib/Matrices and Linear Algebra/Matrix Factorizations/Complex Burst QR Decomposition"],
     },
     "Complex Partial-Systolic Q-less QR Decomposition": {
         "name": "Complex Partial-Systolic Q-less QR Decomposition",
@@ -4889,9 +4853,7 @@ SIMLIB_DB = {
     },
     "Real Burst QR Decomposition": {
         "name": "Real Burst QR Decomposition",
-        "paths": [
-            "embeddedMatrixLib/Matrices and Linear Algebra/Matrix Factorizations/Real Burst QR Decomposition"
-        ],
+        "paths": ["embeddedMatrixLib/Matrices and Linear Algebra/Matrix Factorizations/Real Burst QR Decomposition"],
     },
     "Real Partial-Systolic Q-less QR Decomposition": {
         "name": "Real Partial-Systolic Q-less QR Decomposition",
@@ -4919,9 +4881,7 @@ SIMLIB_DB = {
     },
     "Systolic QR Decomposition": {
         "name": "Systolic QR Decomposition",
-        "paths": [
-            "embeddedMatrixLib/Matrices and Linear Algebra/Matrix Factorizations/Systolic QR Decomposition"
-        ],
+        "paths": ["embeddedMatrixLib/Matrices and Linear Algebra/Matrix Factorizations/Systolic QR Decomposition"],
     },
     "Enabled Resettable Delay": {
         "name": "Enabled Resettable Delay",
@@ -5270,9 +5230,7 @@ SIMLIB_DB = {
     },
     "CC-CV Charging (Proportional Control)": {
         "name": "CC-CV Charging (Proportional Control)",
-        "paths": [
-            "batt_sl_lib/Current Management/CC-CV Charging (Proportional Control)"
-        ],
+        "paths": ["batt_sl_lib/Current Management/CC-CV Charging (Proportional Control)"],
     },
     "Estimators": {"name": "Estimators", "paths": ["batt_sl_lib/Estimators"]},
     "Battery Capacity Estimator (Kalman Filter)": {
@@ -5285,9 +5243,7 @@ SIMLIB_DB = {
     },
     "Battery Capacity Estimator (Least Squares, Variable Weights)": {
         "name": "Battery Capacity Estimator (Least Squares, Variable Weights)",
-        "paths": [
-            "batt_sl_lib/Estimators/Battery Capacity Estimator (Least Squares, Variable Weights)"
-        ],
+        "paths": ["batt_sl_lib/Estimators/Battery Capacity Estimator (Least Squares, Variable Weights)"],
     },
     "Battery Power Estimator": {
         "name": "Battery Power Estimator",
@@ -5299,15 +5255,11 @@ SIMLIB_DB = {
     },
     "Cell Delta SOC Estimator (Kalman Filter, Variable Resistance)": {
         "name": "Cell Delta SOC Estimator (Kalman Filter, Variable Resistance)",
-        "paths": [
-            "batt_sl_lib/Estimators/Cell Delta SOC Estimator (Kalman Filter, Variable Resistance)"
-        ],
+        "paths": ["batt_sl_lib/Estimators/Cell Delta SOC Estimator (Kalman Filter, Variable Resistance)"],
     },
     "Pack Bar SOC Estimator (Adaptive Kalman Filter)": {
         "name": "Pack Bar SOC Estimator (Adaptive Kalman Filter)",
-        "paths": [
-            "batt_sl_lib/Estimators/Pack Bar SOC Estimator (Adaptive Kalman Filter)"
-        ],
+        "paths": ["batt_sl_lib/Estimators/Pack Bar SOC Estimator (Adaptive Kalman Filter)"],
     },
     "Pack Bar SOC Estimator (Kalman Filter)": {
         "name": "Pack Bar SOC Estimator (Kalman Filter)",
@@ -5319,9 +5271,7 @@ SIMLIB_DB = {
     },
     "SOC Estimator (Adaptive Kalman Filter, Variable Capacity)": {
         "name": "SOC Estimator (Adaptive Kalman Filter, Variable Capacity)",
-        "paths": [
-            "batt_sl_lib/Estimators/SOC Estimator (Adaptive Kalman Filter, Variable Capacity)"
-        ],
+        "paths": ["batt_sl_lib/Estimators/SOC Estimator (Adaptive Kalman Filter, Variable Capacity)"],
     },
     "SOC Estimator (Coulomb Counting)": {
         "name": "SOC Estimator (Coulomb Counting)",
@@ -5329,9 +5279,7 @@ SIMLIB_DB = {
     },
     "SOC Estimator (Coulomb Counting, Variable Capacity)": {
         "name": "SOC Estimator (Coulomb Counting, Variable Capacity)",
-        "paths": [
-            "batt_sl_lib/Estimators/SOC Estimator (Coulomb Counting, Variable Capacity)"
-        ],
+        "paths": ["batt_sl_lib/Estimators/SOC Estimator (Coulomb Counting, Variable Capacity)"],
     },
     "SOC Estimator (Kalman Filter)": {
         "name": "SOC Estimator (Kalman Filter)",
@@ -5339,9 +5287,7 @@ SIMLIB_DB = {
     },
     "SOC Estimator (Kalman Filter, Variable Capacity)": {
         "name": "SOC Estimator (Kalman Filter, Variable Capacity)",
-        "paths": [
-            "batt_sl_lib/Estimators/SOC Estimator (Kalman Filter, Variable Capacity)"
-        ],
+        "paths": ["batt_sl_lib/Estimators/SOC Estimator (Kalman Filter, Variable Capacity)"],
     },
     "SOE Estimator (Adaptive Kalman Filter)": {
         "name": "SOE Estimator (Adaptive Kalman Filter)",
@@ -5357,21 +5303,15 @@ SIMLIB_DB = {
     },
     "SOE Estimator (Adaptive Kalman Filter, Variable Energy Capacity)": {
         "name": "SOE Estimator (Adaptive Kalman Filter, Variable Energy Capacity)",
-        "paths": [
-            "batt_sl_lib/Estimators/SOE Estimator (Adaptive Kalman Filter, Variable Energy Capacity)"
-        ],
+        "paths": ["batt_sl_lib/Estimators/SOE Estimator (Adaptive Kalman Filter, Variable Energy Capacity)"],
     },
     "SOE Estimator (Energy Counting, Variable Energy Capacity)": {
         "name": "SOE Estimator (Energy Counting, Variable Energy Capacity)",
-        "paths": [
-            "batt_sl_lib/Estimators/SOE Estimator (Energy Counting, Variable Energy Capacity)"
-        ],
+        "paths": ["batt_sl_lib/Estimators/SOE Estimator (Energy Counting, Variable Energy Capacity)"],
     },
     "SOE Estimator (Kalman Filter, Variable Energy Capacity)": {
         "name": "SOE Estimator (Kalman Filter, Variable Energy Capacity)",
-        "paths": [
-            "batt_sl_lib/Estimators/SOE Estimator (Kalman Filter, Variable Energy Capacity)"
-        ],
+        "paths": ["batt_sl_lib/Estimators/SOE Estimator (Kalman Filter, Variable Energy Capacity)"],
     },
     "SOH Estimator": {
         "name": "SOH Estimator",
@@ -5490,9 +5430,7 @@ SIMLIB_DB = {
     },
     "SIMetrix Cosimulation Interface": {
         "name": "SIMetrix Cosimulation Interface",
-        "paths": [
-            "ee_lib/Additional Components/Cosimulation/SIMetrix Cosimulation Interface"
-        ],
+        "paths": ["ee_lib/Additional Components/Cosimulation/SIMetrix Cosimulation Interface"],
     },
     "SPICE Passives": {
         "name": "SPICE Passives",
@@ -5500,9 +5438,7 @@ SIMLIB_DB = {
     },
     "Current-Controlled Switch": {
         "name": "Current-Controlled Switch",
-        "paths": [
-            "ee_lib/Additional Components/SPICE Passives/Current-Controlled Switch"
-        ],
+        "paths": ["ee_lib/Additional Components/SPICE Passives/Current-Controlled Switch"],
     },
     "SPICE Resistor": {
         "name": "SPICE Resistor",
@@ -5510,9 +5446,7 @@ SIMLIB_DB = {
     },
     "Voltage-Controlled Switch": {
         "name": "Voltage-Controlled Switch",
-        "paths": [
-            "ee_lib/Additional Components/SPICE Passives/Voltage-Controlled Switch"
-        ],
+        "paths": ["ee_lib/Additional Components/SPICE Passives/Voltage-Controlled Switch"],
     },
     "SPICE Semiconductors": {
         "name": "SPICE Semiconductors",
@@ -5571,15 +5505,11 @@ SIMLIB_DB = {
     },
     "Exponential Current Source": {
         "name": "Exponential Current Source",
-        "paths": [
-            "ee_lib/Additional Components/SPICE Sources/Exponential Current Source"
-        ],
+        "paths": ["ee_lib/Additional Components/SPICE Sources/Exponential Current Source"],
     },
     "Exponential Voltage Source": {
         "name": "Exponential Voltage Source",
-        "paths": [
-            "ee_lib/Additional Components/SPICE Sources/Exponential Voltage Source"
-        ],
+        "paths": ["ee_lib/Additional Components/SPICE Sources/Exponential Voltage Source"],
     },
     "PCCCS": {
         "name": "PCCCS",
@@ -5637,15 +5567,11 @@ SIMLIB_DB = {
     },
     "Sinusoidal Current Source": {
         "name": "Sinusoidal Current Source",
-        "paths": [
-            "ee_lib/Additional Components/SPICE Sources/Sinusoidal Current Source"
-        ],
+        "paths": ["ee_lib/Additional Components/SPICE Sources/Sinusoidal Current Source"],
     },
     "Sinusoidal Voltage Source": {
         "name": "Sinusoidal Voltage Source",
-        "paths": [
-            "ee_lib/Additional Components/SPICE Sources/Sinusoidal Voltage Source"
-        ],
+        "paths": ["ee_lib/Additional Components/SPICE Sources/Sinusoidal Voltage Source"],
     },
     "Connectors & References": {
         "name": "Connectors & References",
@@ -5727,39 +5653,27 @@ SIMLIB_DB = {
     },
     "FEM-Parameterized Induction Machine (Squirrel Cage)": {
         "name": "FEM-Parameterized Induction Machine (Squirrel Cage)",
-        "paths": [
-            "ee_lib/Electromechanical/Asynchronous/FEM-Parameterized Induction Machine (Squirrel Cage)"
-        ],
+        "paths": ["ee_lib/Electromechanical/Asynchronous/FEM-Parameterized Induction Machine (Squirrel Cage)"],
     },
     "FEM-Parameterized Induction Machine (Wound Rotor)": {
         "name": "FEM-Parameterized Induction Machine (Wound Rotor)",
-        "paths": [
-            "ee_lib/Electromechanical/Asynchronous/FEM-Parameterized Induction Machine (Wound Rotor)"
-        ],
+        "paths": ["ee_lib/Electromechanical/Asynchronous/FEM-Parameterized Induction Machine (Wound Rotor)"],
     },
     "Induction Machine (Single-Phase)": {
         "name": "Induction Machine (Single-Phase)",
-        "paths": [
-            "ee_lib/Electromechanical/Asynchronous/Induction Machine (Single-Phase)"
-        ],
+        "paths": ["ee_lib/Electromechanical/Asynchronous/Induction Machine (Single-Phase)"],
     },
     "Induction Machine Measurement": {
         "name": "Induction Machine Measurement",
-        "paths": [
-            "ee_lib/Electromechanical/Asynchronous/Induction Machine Measurement"
-        ],
+        "paths": ["ee_lib/Electromechanical/Asynchronous/Induction Machine Measurement"],
     },
     "Induction Machine Squirrel Cage": {
         "name": "Induction Machine Squirrel Cage",
-        "paths": [
-            "ee_lib/Electromechanical/Asynchronous/Induction Machine Squirrel Cage"
-        ],
+        "paths": ["ee_lib/Electromechanical/Asynchronous/Induction Machine Squirrel Cage"],
     },
     "Induction Machine Wound Rotor": {
         "name": "Induction Machine Wound Rotor",
-        "paths": [
-            "ee_lib/Electromechanical/Asynchronous/Induction Machine Wound Rotor"
-        ],
+        "paths": ["ee_lib/Electromechanical/Asynchronous/Induction Machine Wound Rotor"],
     },
     "Simplified Induction Motor": {
         "name": "Simplified Induction Motor",
@@ -5811,27 +5725,19 @@ SIMLIB_DB = {
     },
     "FEM-Parameterized Linear Actuator": {
         "name": "FEM-Parameterized Linear Actuator",
-        "paths": [
-            "ee_lib/Electromechanical/Mechatronic Actuators/FEM-Parameterized Linear Actuator"
-        ],
+        "paths": ["ee_lib/Electromechanical/Mechatronic Actuators/FEM-Parameterized Linear Actuator"],
     },
     "FEM-Parameterized Rotary Actuator": {
         "name": "FEM-Parameterized Rotary Actuator",
-        "paths": [
-            "ee_lib/Electromechanical/Mechatronic Actuators/FEM-Parameterized Rotary Actuator"
-        ],
+        "paths": ["ee_lib/Electromechanical/Mechatronic Actuators/FEM-Parameterized Rotary Actuator"],
     },
     "Generic Linear Actuator": {
         "name": "Generic Linear Actuator",
-        "paths": [
-            "ee_lib/Electromechanical/Mechatronic Actuators/Generic Linear Actuator"
-        ],
+        "paths": ["ee_lib/Electromechanical/Mechatronic Actuators/Generic Linear Actuator"],
     },
     "Generic Rotary Actuator": {
         "name": "Generic Rotary Actuator",
-        "paths": [
-            "ee_lib/Electromechanical/Mechatronic Actuators/Generic Rotary Actuator"
-        ],
+        "paths": ["ee_lib/Electromechanical/Mechatronic Actuators/Generic Rotary Actuator"],
     },
     "Piezo Bender": {
         "name": "Piezo Bender",
@@ -5839,15 +5745,11 @@ SIMLIB_DB = {
     },
     "Piezo Linear Actuator": {
         "name": "Piezo Linear Actuator",
-        "paths": [
-            "ee_lib/Electromechanical/Mechatronic Actuators/Piezo Linear Actuator"
-        ],
+        "paths": ["ee_lib/Electromechanical/Mechatronic Actuators/Piezo Linear Actuator"],
     },
     "Piezo Rotary Actuator": {
         "name": "Piezo Rotary Actuator",
-        "paths": [
-            "ee_lib/Electromechanical/Mechatronic Actuators/Piezo Rotary Actuator"
-        ],
+        "paths": ["ee_lib/Electromechanical/Mechatronic Actuators/Piezo Rotary Actuator"],
     },
     "Piezo Stack": {
         "name": "Piezo Stack",
@@ -5921,33 +5823,23 @@ SIMLIB_DB = {
     },
     "Switched Reluctance Machine": {
         "name": "Switched Reluctance Machine",
-        "paths": [
-            "ee_lib/Electromechanical/Reluctance & Stepper/Switched Reluctance Machine"
-        ],
+        "paths": ["ee_lib/Electromechanical/Reluctance & Stepper/Switched Reluctance Machine"],
     },
     "Switched Reluctance Machine (Multi-Phase)": {
         "name": "Switched Reluctance Machine (Multi-Phase)",
-        "paths": [
-            "ee_lib/Electromechanical/Reluctance & Stepper/Switched Reluctance Machine (Multi-Phase)"
-        ],
+        "paths": ["ee_lib/Electromechanical/Reluctance & Stepper/Switched Reluctance Machine (Multi-Phase)"],
     },
     "Synchronous Reluctance Machine": {
         "name": "Synchronous Reluctance Machine",
-        "paths": [
-            "ee_lib/Electromechanical/Reluctance & Stepper/Synchronous Reluctance Machine"
-        ],
+        "paths": ["ee_lib/Electromechanical/Reluctance & Stepper/Synchronous Reluctance Machine"],
     },
     "Unipolar Stepper Motor": {
         "name": "Unipolar Stepper Motor",
-        "paths": [
-            "ee_lib/Electromechanical/Reluctance & Stepper/Unipolar Stepper Motor"
-        ],
+        "paths": ["ee_lib/Electromechanical/Reluctance & Stepper/Unipolar Stepper Motor"],
     },
     "Unipolar Stepper Motor Driver": {
         "name": "Unipolar Stepper Motor Driver",
-        "paths": [
-            "ee_lib/Electromechanical/Reluctance & Stepper/Unipolar Stepper Motor Driver"
-        ],
+        "paths": ["ee_lib/Electromechanical/Reluctance & Stepper/Unipolar Stepper Motor Driver"],
     },
     "Rotating Air Gap": {
         "name": "Rotating Air Gap",
@@ -5963,33 +5855,23 @@ SIMLIB_DB = {
     },
     "FEM-Parameterized Synchronous Machine": {
         "name": "FEM-Parameterized Synchronous Machine",
-        "paths": [
-            "ee_lib/Electromechanical/Synchronous/FEM-Parameterized Synchronous Machine"
-        ],
+        "paths": ["ee_lib/Electromechanical/Synchronous/FEM-Parameterized Synchronous Machine"],
     },
     "Simplified Synchronous Machine": {
         "name": "Simplified Synchronous Machine",
-        "paths": [
-            "ee_lib/Electromechanical/Synchronous/Simplified Synchronous Machine"
-        ],
+        "paths": ["ee_lib/Electromechanical/Synchronous/Simplified Synchronous Machine"],
     },
     "Simplified Synchronous Machine Measurement": {
         "name": "Simplified Synchronous Machine Measurement",
-        "paths": [
-            "ee_lib/Electromechanical/Synchronous/Simplified Synchronous Machine Measurement"
-        ],
+        "paths": ["ee_lib/Electromechanical/Synchronous/Simplified Synchronous Machine Measurement"],
     },
     "Synchronous Machine (Six-Phase)": {
         "name": "Synchronous Machine (Six-Phase)",
-        "paths": [
-            "ee_lib/Electromechanical/Synchronous/Synchronous Machine (Six-Phase)"
-        ],
+        "paths": ["ee_lib/Electromechanical/Synchronous/Synchronous Machine (Six-Phase)"],
     },
     "Synchronous Machine Field Circuit": {
         "name": "Synchronous Machine Field Circuit",
-        "paths": [
-            "ee_lib/Electromechanical/Synchronous/Synchronous Machine Field Circuit"
-        ],
+        "paths": ["ee_lib/Electromechanical/Synchronous/Synchronous Machine Field Circuit"],
     },
     "Synchronous Machine GENTPJ": {
         "name": "Synchronous Machine GENTPJ",
@@ -5997,9 +5879,7 @@ SIMLIB_DB = {
     },
     "Synchronous Machine Measurement": {
         "name": "Synchronous Machine Measurement",
-        "paths": [
-            "ee_lib/Electromechanical/Synchronous/Synchronous Machine Measurement"
-        ],
+        "paths": ["ee_lib/Electromechanical/Synchronous/Synchronous Machine Measurement"],
     },
     "Synchronous Machine Model 1.0": {
         "name": "Synchronous Machine Model 1.0",
@@ -6011,15 +5891,11 @@ SIMLIB_DB = {
     },
     "Synchronous Machine Round Rotor": {
         "name": "Synchronous Machine Round Rotor",
-        "paths": [
-            "ee_lib/Electromechanical/Synchronous/Synchronous Machine Round Rotor"
-        ],
+        "paths": ["ee_lib/Electromechanical/Synchronous/Synchronous Machine Round Rotor"],
     },
     "Synchronous Machine Salient Pole": {
         "name": "Synchronous Machine Salient Pole",
-        "paths": [
-            "ee_lib/Electromechanical/Synchronous/Synchronous Machine Salient Pole"
-        ],
+        "paths": ["ee_lib/Electromechanical/Synchronous/Synchronous Machine Salient Pole"],
     },
     "Wind Turbine (Mechanical)": {
         "name": "Wind Turbine (Mechanical)",
@@ -6173,9 +6049,7 @@ SIMLIB_DB = {
     "DC Cable": {"name": "DC Cable", "paths": ["ee_lib/Passive/Lines/DC Cable"]},
     "Frequency-Dependent Overhead Line (Three-Phase)": {
         "name": "Frequency-Dependent Overhead Line (Three-Phase)",
-        "paths": [
-            "ee_lib/Passive/Lines/Frequency-Dependent Overhead Line (Three-Phase)"
-        ],
+        "paths": ["ee_lib/Passive/Lines/Frequency-Dependent Overhead Line (Three-Phase)"],
     },
     "Transmission Line (Three-Phase)": {
         "name": "Transmission Line (Three-Phase)",
@@ -6230,9 +6104,7 @@ SIMLIB_DB = {
     },
     "Wye-Connected Variable Load (lagging)": {
         "name": "Wye-Connected Variable Load (lagging)",
-        "paths": [
-            "ee_lib/Passive/RLC Assemblies/Wye-Connected Variable Load (lagging)"
-        ],
+        "paths": ["ee_lib/Passive/RLC Assemblies/Wye-Connected Variable Load (lagging)"],
     },
     "Wye-Connected Load": {
         "name": "Wye-Connected Load",
@@ -6303,9 +6175,7 @@ SIMLIB_DB = {
     },
     "Three-Winding Transformer (Three-Phase)": {
         "name": "Three-Winding Transformer (Three-Phase)",
-        "paths": [
-            "ee_lib/Passive/Transformers/Three-Winding Transformer (Three-Phase)"
-        ],
+        "paths": ["ee_lib/Passive/Transformers/Three-Winding Transformer (Three-Phase)"],
     },
     "Three-Winding Mutual Inductor": {
         "name": "Three-Winding Mutual Inductor",
@@ -6349,51 +6219,35 @@ SIMLIB_DB = {
     },
     "AC-DC Converter (Three-Phase)": {
         "name": "AC-DC Converter (Three-Phase)",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/AC-DC Converter (Three-Phase)"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/AC-DC Converter (Three-Phase)"],
     },
     "Average-Value Chopper": {
         "name": "Average-Value Chopper",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/Average-Value Chopper"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/Average-Value Chopper"],
     },
     "Average-Value Inverter (Three-Phase)": {
         "name": "Average-Value Inverter (Three-Phase)",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/Average-Value Inverter (Three-Phase)"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/Average-Value Inverter (Three-Phase)"],
     },
     "Average-Value Rectifier (Three-Phase)": {
         "name": "Average-Value Rectifier (Three-Phase)",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/Average-Value Rectifier (Three-Phase)"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/Average-Value Rectifier (Three-Phase)"],
     },
     "Average-Value Voltage Source Converter": {
         "name": "Average-Value Voltage Source Converter",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/Average-Value Voltage Source Converter"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/Average-Value Voltage Source Converter"],
     },
     "Average-Value Voltage Source Converter (Three-Phase)": {
         "name": "Average-Value Voltage Source Converter (Three-Phase)",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/Average-Value Voltage Source Converter (Three-Phase)"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/Average-Value Voltage Source Converter (Three-Phase)"],
     },
     "Average-Value DC-DC Converter": {
         "name": "Average-Value DC-DC Converter",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/Average-Value DC-DC Converter"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/Average-Value DC-DC Converter"],
     },
     "Bidirectional DC-DC Converter": {
         "name": "Bidirectional DC-DC Converter",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/Bidirectional DC-DC Converter"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/Bidirectional DC-DC Converter"],
     },
     "Boost Converter": {
         "name": "Boost Converter",
@@ -6415,9 +6269,7 @@ SIMLIB_DB = {
     },
     "Converter (Three-Phase)": {
         "name": "Converter (Three-Phase)",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/Converter (Three-Phase)"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/Converter (Three-Phase)"],
     },
     "DC-DC Converter": {
         "name": "DC-DC Converter",
@@ -6425,21 +6277,15 @@ SIMLIB_DB = {
     },
     "Eight-Pulse Gate Multiplexer": {
         "name": "Eight-Pulse Gate Multiplexer",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/Eight-Pulse Gate Multiplexer"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/Eight-Pulse Gate Multiplexer"],
     },
     "Four-Pulse Gate Multiplexer": {
         "name": "Four-Pulse Gate Multiplexer",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/Four-Pulse Gate Multiplexer"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/Four-Pulse Gate Multiplexer"],
     },
     "Four-Quadrant Chopper": {
         "name": "Four-Quadrant Chopper",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/Four-Quadrant Chopper"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/Four-Quadrant Chopper"],
     },
     "H-Bridge": {
         "name": "H-Bridge",
@@ -6447,21 +6293,15 @@ SIMLIB_DB = {
     },
     "Modular Multilevel Converter (Three-Phase)": {
         "name": "Modular Multilevel Converter (Three-Phase)",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/Modular Multilevel Converter (Three-Phase)"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/Modular Multilevel Converter (Three-Phase)"],
     },
     "Modular Multilevel Converter Arm": {
         "name": "Modular Multilevel Converter Arm",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/Modular Multilevel Converter Arm"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/Modular Multilevel Converter Arm"],
     },
     "Modular Multilevel Converter Leg": {
         "name": "Modular Multilevel Converter Leg",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/Modular Multilevel Converter Leg"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/Modular Multilevel Converter Leg"],
     },
     "One-Quadrant Chopper": {
         "name": "One-Quadrant Chopper",
@@ -6469,33 +6309,23 @@ SIMLIB_DB = {
     },
     "Rectifier (Three-Phase)": {
         "name": "Rectifier (Three-Phase)",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/Rectifier (Three-Phase)"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/Rectifier (Three-Phase)"],
     },
     "Six-Pulse Gate Multiplexer": {
         "name": "Six-Pulse Gate Multiplexer",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/Six-Pulse Gate Multiplexer"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/Six-Pulse Gate Multiplexer"],
     },
     "Three-Level Converter (Three-Phase)": {
         "name": "Three-Level Converter (Three-Phase)",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/Three-Level Converter (Three-Phase)"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/Three-Level Converter (Three-Phase)"],
     },
     "Twelve-Pulse Gate Multiplexer": {
         "name": "Twelve-Pulse Gate Multiplexer",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/Twelve-Pulse Gate Multiplexer"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/Twelve-Pulse Gate Multiplexer"],
     },
     "Two-Pulse Gate Multiplexer": {
         "name": "Two-Pulse Gate Multiplexer",
-        "paths": [
-            "ee_lib/Semiconductors & Converters/Converters/Two-Pulse Gate Multiplexer"
-        ],
+        "paths": ["ee_lib/Semiconductors & Converters/Converters/Two-Pulse Gate Multiplexer"],
     },
     "Two-Quadrant Chopper": {
         "name": "Two-Quadrant Chopper",
@@ -6626,9 +6456,7 @@ SIMLIB_DB = {
     },
     "Current and Voltage Sensor (Three-Phase)": {
         "name": "Current and Voltage Sensor (Three-Phase)",
-        "paths": [
-            "ee_lib/Sensors & Transducers/Current and Voltage Sensor (Three-Phase)"
-        ],
+        "paths": ["ee_lib/Sensors & Transducers/Current and Voltage Sensor (Three-Phase)"],
     },
     "Gyro": {"name": "Gyro", "paths": ["ee_lib/Sensors & Transducers/Gyro"]},
     "Hall-Effect Rotary Encoder": {
@@ -6854,9 +6682,7 @@ SIMLIB_DB = {
     },
     "Bridge Cycloconverter Voltage Controller (Three-Phase)": {
         "name": "Bridge Cycloconverter Voltage Controller (Three-Phase)",
-        "paths": [
-            "ee_sl_lib/Converter Control/Bridge Cycloconverter Voltage Controller (Three-Phase)"
-        ],
+        "paths": ["ee_sl_lib/Converter Control/Bridge Cycloconverter Voltage Controller (Three-Phase)"],
     },
     "DC-DC Voltage Controller": {
         "name": "DC-DC Voltage Controller",
@@ -6864,15 +6690,11 @@ SIMLIB_DB = {
     },
     "PFC Rectifier Controller (Three-Phase) ": {
         "name": "PFC Rectifier Controller (Three-Phase) ",
-        "paths": [
-            "ee_sl_lib/Converter Control/PFC Rectifier Controller (Three-Phase) "
-        ],
+        "paths": ["ee_sl_lib/Converter Control/PFC Rectifier Controller (Three-Phase) "],
     },
     "Thyristor Rectifier Voltage Controller (Three-Phase)": {
         "name": "Thyristor Rectifier Voltage Controller (Three-Phase)",
-        "paths": [
-            "ee_sl_lib/Converter Control/Thyristor Rectifier Voltage Controller (Three-Phase)"
-        ],
+        "paths": ["ee_sl_lib/Converter Control/Thyristor Rectifier Voltage Controller (Three-Phase)"],
     },
     "General Control": {
         "name": "General Control",
@@ -6891,9 +6713,7 @@ SIMLIB_DB = {
     },
     "Filtered Derivative (Discrete or Continuous)": {
         "name": "Filtered Derivative (Discrete or Continuous)",
-        "paths": [
-            "ee_sl_lib/General Control/Filtered Derivative (Discrete or Continuous)"
-        ],
+        "paths": ["ee_sl_lib/General Control/Filtered Derivative (Discrete or Continuous)"],
     },
     "Fourier Analysis": {
         "name": "Fourier Analysis",
@@ -6905,9 +6725,7 @@ SIMLIB_DB = {
     },
     "Integrator with Wrapped State (Discrete or Continuous)": {
         "name": "Integrator with Wrapped State (Discrete or Continuous)",
-        "paths": [
-            "ee_sl_lib/General Control/Integrator with Wrapped State (Discrete or Continuous)"
-        ],
+        "paths": ["ee_sl_lib/General Control/Integrator with Wrapped State (Discrete or Continuous)"],
     },
     "Lead-Lag (Discrete or Continuous)": {
         "name": "Lead-Lag (Discrete or Continuous)",
@@ -6939,15 +6757,11 @@ SIMLIB_DB = {
     },
     "PI Controller with Integral Anti-Windup (Discrete or Continuous)": {
         "name": "PI Controller with Integral Anti-Windup (Discrete or Continuous)",
-        "paths": [
-            "ee_sl_lib/General Control/PI Controller with Integral Anti-Windup (Discrete or Continuous)"
-        ],
+        "paths": ["ee_sl_lib/General Control/PI Controller with Integral Anti-Windup (Discrete or Continuous)"],
     },
     "Programmable Signal Generator (Three-Phase)": {
         "name": "Programmable Signal Generator (Three-Phase)",
-        "paths": [
-            "ee_sl_lib/General Control/Programmable Signal Generator (Three-Phase)"
-        ],
+        "paths": ["ee_sl_lib/General Control/Programmable Signal Generator (Three-Phase)"],
     },
     "RST Controller": {
         "name": "RST Controller",
@@ -6955,9 +6769,7 @@ SIMLIB_DB = {
     },
     "Second-Order Low-Pass Filter (Discrete or Continuous)": {
         "name": "Second-Order Low-Pass Filter (Discrete or Continuous)",
-        "paths": [
-            "ee_sl_lib/General Control/Second-Order Low-Pass Filter (Discrete or Continuous)"
-        ],
+        "paths": ["ee_sl_lib/General Control/Second-Order Low-Pass Filter (Discrete or Continuous)"],
     },
     "Second-Order Filter": {
         "name": "Second-Order Filter",
@@ -7017,9 +6829,7 @@ SIMLIB_DB = {
     },
     "Hysteresis Current Controller (Three-Phase)": {
         "name": "Hysteresis Current Controller (Three-Phase)",
-        "paths": [
-            "ee_sl_lib/General Machine Control/Hysteresis Current Controller (Three-Phase)"
-        ],
+        "paths": ["ee_sl_lib/General Machine Control/Hysteresis Current Controller (Three-Phase)"],
     },
     "Velocity Controller": {
         "name": "Velocity Controller",
@@ -7031,21 +6841,15 @@ SIMLIB_DB = {
     },
     "Induction Machine Current Controller": {
         "name": "Induction Machine Current Controller",
-        "paths": [
-            "ee_sl_lib/Induction Machine Control/Induction Machine Current Controller"
-        ],
+        "paths": ["ee_sl_lib/Induction Machine Control/Induction Machine Current Controller"],
     },
     "Induction Machine Direct Torque Control": {
         "name": "Induction Machine Direct Torque Control",
-        "paths": [
-            "ee_sl_lib/Induction Machine Control/Induction Machine Direct Torque Control"
-        ],
+        "paths": ["ee_sl_lib/Induction Machine Control/Induction Machine Direct Torque Control"],
     },
     "Induction Machine Direct Torque Control (Single-Phase)": {
         "name": "Induction Machine Direct Torque Control (Single-Phase)",
-        "paths": [
-            "ee_sl_lib/Induction Machine Control/Induction Machine Direct Torque Control (Single-Phase)"
-        ],
+        "paths": ["ee_sl_lib/Induction Machine Control/Induction Machine Direct Torque Control (Single-Phase)"],
     },
     "Induction Machine Direct Torque Control with Space Vector Modulator": {
         "name": "Induction Machine Direct Torque Control with Space Vector Modulator",
@@ -7055,21 +6859,15 @@ SIMLIB_DB = {
     },
     "Induction Machine Field-Oriented Control": {
         "name": "Induction Machine Field-Oriented Control",
-        "paths": [
-            "ee_sl_lib/Induction Machine Control/Induction Machine Field-Oriented Control"
-        ],
+        "paths": ["ee_sl_lib/Induction Machine Control/Induction Machine Field-Oriented Control"],
     },
     "Induction Machine Field-Oriented Control (Single-Phase)": {
         "name": "Induction Machine Field-Oriented Control (Single-Phase)",
-        "paths": [
-            "ee_sl_lib/Induction Machine Control/Induction Machine Field-Oriented Control (Single-Phase)"
-        ],
+        "paths": ["ee_sl_lib/Induction Machine Control/Induction Machine Field-Oriented Control (Single-Phase)"],
     },
     "Induction Machine Scalar Control": {
         "name": "Induction Machine Scalar Control",
-        "paths": [
-            "ee_sl_lib/Induction Machine Control/Induction Machine Scalar Control"
-        ],
+        "paths": ["ee_sl_lib/Induction Machine Control/Induction Machine Scalar Control"],
     },
     "Mathematical Transforms": {
         "name": "Mathematical Transforms",
@@ -7088,9 +6886,7 @@ SIMLIB_DB = {
     },
     "Coordinate Transform (Five-Phase)": {
         "name": "Coordinate Transform (Five-Phase)",
-        "paths": [
-            "ee_sl_lib/Mathematical Transforms/Coordinate Transform (Five-Phase)"
-        ],
+        "paths": ["ee_sl_lib/Mathematical Transforms/Coordinate Transform (Five-Phase)"],
     },
     "Decoupled Transform (Six-Phase)": {
         "name": "Decoupled Transform (Six-Phase)",
@@ -7106,21 +6902,15 @@ SIMLIB_DB = {
     },
     "Inverse Coordinate Transform (Five-Phase)": {
         "name": "Inverse Coordinate Transform (Five-Phase)",
-        "paths": [
-            "ee_sl_lib/Mathematical Transforms/Inverse Coordinate Transform (Five-Phase)"
-        ],
+        "paths": ["ee_sl_lib/Mathematical Transforms/Inverse Coordinate Transform (Five-Phase)"],
     },
     "Inverse Decoupled Transform (Six-Phase)": {
         "name": "Inverse Decoupled Transform (Six-Phase)",
-        "paths": [
-            "ee_sl_lib/Mathematical Transforms/Inverse Decoupled Transform (Six-Phase)"
-        ],
+        "paths": ["ee_sl_lib/Mathematical Transforms/Inverse Decoupled Transform (Six-Phase)"],
     },
     "Inverse Symmetrical-Components Transform": {
         "name": "Inverse Symmetrical-Components Transform",
-        "paths": [
-            "ee_sl_lib/Mathematical Transforms/Inverse Symmetrical-Components Transform"
-        ],
+        "paths": ["ee_sl_lib/Mathematical Transforms/Inverse Symmetrical-Components Transform"],
     },
     "Park Transform": {
         "name": "Park Transform",
@@ -7221,21 +7011,15 @@ SIMLIB_DB = {
     },
     "PWM Gate Signal Generator (Five-phase, Two-level)": {
         "name": "PWM Gate Signal Generator (Five-phase, Two-level)",
-        "paths": [
-            "ee_sl_lib/Pulse Width Modulation/PWM Gate Signal Generator (Five-phase, Two-level)"
-        ],
+        "paths": ["ee_sl_lib/Pulse Width Modulation/PWM Gate Signal Generator (Five-phase, Two-level)"],
     },
     "PWM Gate Signal Generator (Three-phase, Three-level)": {
         "name": "PWM Gate Signal Generator (Three-phase, Three-level)",
-        "paths": [
-            "ee_sl_lib/Pulse Width Modulation/PWM Gate Signal Generator (Three-phase, Three-level)"
-        ],
+        "paths": ["ee_sl_lib/Pulse Width Modulation/PWM Gate Signal Generator (Three-phase, Three-level)"],
     },
     "PWM Gate Signal Generator (Three-phase, Two-level)": {
         "name": "PWM Gate Signal Generator (Three-phase, Two-level)",
-        "paths": [
-            "ee_sl_lib/Pulse Width Modulation/PWM Gate Signal Generator (Three-phase, Two-level)"
-        ],
+        "paths": ["ee_sl_lib/Pulse Width Modulation/PWM Gate Signal Generator (Three-phase, Two-level)"],
     },
     "PWM Generator": {
         "name": "PWM Generator",
@@ -7243,9 +7027,7 @@ SIMLIB_DB = {
     },
     "PWM Generator (Five-phase, Two-level)": {
         "name": "PWM Generator (Five-phase, Two-level)",
-        "paths": [
-            "ee_sl_lib/Pulse Width Modulation/PWM Generator (Five-phase, Two-level)"
-        ],
+        "paths": ["ee_sl_lib/Pulse Width Modulation/PWM Generator (Five-phase, Two-level)"],
     },
     "PWM Generator (Multilevel)": {
         "name": "PWM Generator (Multilevel)",
@@ -7256,15 +7038,11 @@ SIMLIB_DB = {
     },
     "PWM Generator (Three-phase, Three-level)": {
         "name": "PWM Generator (Three-phase, Three-level)",
-        "paths": [
-            "ee_sl_lib/Pulse Width Modulation/PWM Generator (Three-phase, Three-level)"
-        ],
+        "paths": ["ee_sl_lib/Pulse Width Modulation/PWM Generator (Three-phase, Three-level)"],
     },
     "PWM Generator (Three-phase, Two-level)": {
         "name": "PWM Generator (Three-phase, Two-level)",
-        "paths": [
-            "ee_sl_lib/Pulse Width Modulation/PWM Generator (Three-phase, Two-level)"
-        ],
+        "paths": ["ee_sl_lib/Pulse Width Modulation/PWM Generator (Three-phase, Two-level)"],
     },
     "PWM Generator (Vienna Rectifier)": {
         "name": "PWM Generator (Vienna Rectifier)",
@@ -7272,21 +7050,15 @@ SIMLIB_DB = {
     },
     "PWM Timing and Waveform Generator (Five-phase, Two-level)": {
         "name": "PWM Timing and Waveform Generator (Five-phase, Two-level)",
-        "paths": [
-            "ee_sl_lib/Pulse Width Modulation/PWM Timing and Waveform Generator (Five-phase, Two-level)"
-        ],
+        "paths": ["ee_sl_lib/Pulse Width Modulation/PWM Timing and Waveform Generator (Five-phase, Two-level)"],
     },
     "PWM Timing and Waveform Generator (Three-phase, Three-level)": {
         "name": "PWM Timing and Waveform Generator (Three-phase, Three-level)",
-        "paths": [
-            "ee_sl_lib/Pulse Width Modulation/PWM Timing and Waveform Generator (Three-phase, Three-level)"
-        ],
+        "paths": ["ee_sl_lib/Pulse Width Modulation/PWM Timing and Waveform Generator (Three-phase, Three-level)"],
     },
     "PWM Timing and Waveform Generator (Three-phase, Two-level)": {
         "name": "PWM Timing and Waveform Generator (Three-phase, Two-level)",
-        "paths": [
-            "ee_sl_lib/Pulse Width Modulation/PWM Timing and Waveform Generator (Three-phase, Two-level)"
-        ],
+        "paths": ["ee_sl_lib/Pulse Width Modulation/PWM Timing and Waveform Generator (Three-phase, Two-level)"],
     },
     "Thyristor 12-Pulse Generator": {
         "name": "Thyristor 12-Pulse Generator",
@@ -7520,9 +7292,7 @@ SIMLIB_DB = {
     },
     "Positive-Displacement Compressor (G)": {
         "name": "Positive-Displacement Compressor (G)",
-        "paths": [
-            "SimscapeFluids_lib/Gas/Turbomachinery/Positive-Displacement Compressor (G)"
-        ],
+        "paths": ["SimscapeFluids_lib/Gas/Turbomachinery/Positive-Displacement Compressor (G)"],
     },
     "Turbine (G)": {
         "name": "Turbine (G)",
@@ -7550,15 +7320,11 @@ SIMLIB_DB = {
     },
     "2-Way Directional Valve (G)": {
         "name": "2-Way Directional Valve (G)",
-        "paths": [
-            "SimscapeFluids_lib/Gas/Valves & Orifices/Directional Control Valves/2-Way Directional Valve (G)"
-        ],
+        "paths": ["SimscapeFluids_lib/Gas/Valves & Orifices/Directional Control Valves/2-Way Directional Valve (G)"],
     },
     "3-Way Directional Valve (G)": {
         "name": "3-Way Directional Valve (G)",
-        "paths": [
-            "SimscapeFluids_lib/Gas/Valves & Orifices/Directional Control Valves/3-Way Directional Valve (G)"
-        ],
+        "paths": ["SimscapeFluids_lib/Gas/Valves & Orifices/Directional Control Valves/3-Way Directional Valve (G)"],
     },
     "4-Way 3-Position Directional Valve (G)": {
         "name": "4-Way 3-Position Directional Valve (G)",
@@ -7568,15 +7334,11 @@ SIMLIB_DB = {
     },
     "Check Valve (G)": {
         "name": "Check Valve (G)",
-        "paths": [
-            "SimscapeFluids_lib/Gas/Valves & Orifices/Directional Control Valves/Check Valve (G)"
-        ],
+        "paths": ["SimscapeFluids_lib/Gas/Valves & Orifices/Directional Control Valves/Check Valve (G)"],
     },
     "Pilot-Operated Check Valve (G)": {
         "name": "Pilot-Operated Check Valve (G)",
-        "paths": [
-            "SimscapeFluids_lib/Gas/Valves & Orifices/Directional Control Valves/Pilot-Operated Check Valve (G)"
-        ],
+        "paths": ["SimscapeFluids_lib/Gas/Valves & Orifices/Directional Control Valves/Pilot-Operated Check Valve (G)"],
     },
     "Flow Control Valves": {
         "name": "Flow Control Valves",
@@ -7591,27 +7353,19 @@ SIMLIB_DB = {
     },
     "Ball Valve (G)": {
         "name": "Ball Valve (G)",
-        "paths": [
-            "SimscapeFluids_lib/Gas/Valves & Orifices/Flow Control Valves/Ball Valve (G)"
-        ],
+        "paths": ["SimscapeFluids_lib/Gas/Valves & Orifices/Flow Control Valves/Ball Valve (G)"],
     },
     "Gate Valve (G)": {
         "name": "Gate Valve (G)",
-        "paths": [
-            "SimscapeFluids_lib/Gas/Valves & Orifices/Flow Control Valves/Gate Valve (G)"
-        ],
+        "paths": ["SimscapeFluids_lib/Gas/Valves & Orifices/Flow Control Valves/Gate Valve (G)"],
     },
     "Poppet Valve (G)": {
         "name": "Poppet Valve (G)",
-        "paths": [
-            "SimscapeFluids_lib/Gas/Valves & Orifices/Flow Control Valves/Poppet Valve (G)"
-        ],
+        "paths": ["SimscapeFluids_lib/Gas/Valves & Orifices/Flow Control Valves/Poppet Valve (G)"],
     },
     "Temperature Control Valve (G)": {
         "name": "Temperature Control Valve (G)",
-        "paths": [
-            "SimscapeFluids_lib/Gas/Valves & Orifices/Flow Control Valves/Temperature Control Valve (G)"
-        ],
+        "paths": ["SimscapeFluids_lib/Gas/Valves & Orifices/Flow Control Valves/Temperature Control Valve (G)"],
     },
     "Orifice (G)": {
         "name": "Orifice (G)",
@@ -7630,15 +7384,11 @@ SIMLIB_DB = {
     },
     "Pressure Reducing Valve (G)": {
         "name": "Pressure Reducing Valve (G)",
-        "paths": [
-            "SimscapeFluids_lib/Gas/Valves & Orifices/Pressure Control Valves/Pressure Reducing Valve (G)"
-        ],
+        "paths": ["SimscapeFluids_lib/Gas/Valves & Orifices/Pressure Control Valves/Pressure Reducing Valve (G)"],
     },
     "Pressure Relief Valve (G)": {
         "name": "Pressure Relief Valve (G)",
-        "paths": [
-            "SimscapeFluids_lib/Gas/Valves & Orifices/Pressure Control Valves/Pressure Relief Valve (G)"
-        ],
+        "paths": ["SimscapeFluids_lib/Gas/Valves & Orifices/Pressure Control Valves/Pressure Relief Valve (G)"],
     },
     "Heat Exchangers": {
         "name": "Heat Exchangers",
@@ -7646,21 +7396,15 @@ SIMLIB_DB = {
     },
     "E-NTU Heat Transfer": {
         "name": "E-NTU Heat Transfer",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Fundamental Components/E-NTU Heat Transfer"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Fundamental Components/E-NTU Heat Transfer"],
     },
     "Heat Exchanger Interface (G)": {
         "name": "Heat Exchanger Interface (G)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Fundamental Components/Heat Exchanger Interface (G)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Fundamental Components/Heat Exchanger Interface (G)"],
     },
     "Heat Exchanger Interface (TL)": {
         "name": "Heat Exchanger Interface (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Fundamental Components/Heat Exchanger Interface (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Fundamental Components/Heat Exchanger Interface (TL)"],
     },
     "Specific Dissipation Heat Exchanger Interface (G)": {
         "name": "Specific Dissipation Heat Exchanger Interface (G)",
@@ -7676,9 +7420,7 @@ SIMLIB_DB = {
     },
     "Specific Dissipation Heat Transfer": {
         "name": "Specific Dissipation Heat Transfer",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Fundamental Components/Specific Dissipation Heat Transfer"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Fundamental Components/Specific Dissipation Heat Transfer"],
     },
     "Heat Exchanger (G)": {
         "name": "Heat Exchanger (G)",
@@ -7690,21 +7432,15 @@ SIMLIB_DB = {
     },
     "Specific Dissipation Heat Exchanger (G)": {
         "name": "Specific Dissipation Heat Exchanger (G)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Gas/Specific Dissipation Heat Exchanger (G)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Gas/Specific Dissipation Heat Exchanger (G)"],
     },
     "Specific Dissipation Heat Exchanger (G-G)": {
         "name": "Specific Dissipation Heat Exchanger (G-G)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Gas/Specific Dissipation Heat Exchanger (G-G)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Gas/Specific Dissipation Heat Exchanger (G-G)"],
     },
     "System-Level Heat Exchanger (G-G)": {
         "name": "System-Level Heat Exchanger (G-G)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Gas/System-Level Heat Exchanger (G-G)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Gas/System-Level Heat Exchanger (G-G)"],
     },
     "Moist Air": {
         "name": "Moist Air",
@@ -7716,9 +7452,7 @@ SIMLIB_DB = {
     },
     "System-Level Heat Exchanger (MA-MA)": {
         "name": "System-Level Heat Exchanger (MA-MA)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Moist Air/System-Level Heat Exchanger (MA-MA)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Moist Air/System-Level Heat Exchanger (MA-MA)"],
     },
     "Thermal Liquid": {
         "name": "Thermal Liquid",
@@ -7730,39 +7464,27 @@ SIMLIB_DB = {
     },
     "Heat Exchanger (TL-TL)": {
         "name": "Heat Exchanger (TL-TL)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Thermal Liquid/Heat Exchanger (TL-TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Thermal Liquid/Heat Exchanger (TL-TL)"],
     },
     "Heat Exchanger (TL)": {
         "name": "Heat Exchanger (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Thermal Liquid/Heat Exchanger (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Thermal Liquid/Heat Exchanger (TL)"],
     },
     "Plate Heat Exchanger (TL-TL)": {
         "name": "Plate Heat Exchanger (TL-TL)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Thermal Liquid/Plate Heat Exchanger (TL-TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Thermal Liquid/Plate Heat Exchanger (TL-TL)"],
     },
     "Specific Dissipation Heat Exchanger (TL-TL)": {
         "name": "Specific Dissipation Heat Exchanger (TL-TL)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Thermal Liquid/Specific Dissipation Heat Exchanger (TL-TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Thermal Liquid/Specific Dissipation Heat Exchanger (TL-TL)"],
     },
     "Specific Dissipation Heat Exchanger (TL)": {
         "name": "Specific Dissipation Heat Exchanger (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Thermal Liquid/Specific Dissipation Heat Exchanger (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Thermal Liquid/Specific Dissipation Heat Exchanger (TL)"],
     },
     "System-Level Heat Exchanger (TL-TL)": {
         "name": "System-Level Heat Exchanger (TL-TL)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Thermal Liquid/System-Level Heat Exchanger (TL-TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Thermal Liquid/System-Level Heat Exchanger (TL-TL)"],
     },
     "Thermal Liquid - Moist Air": {
         "name": "Thermal Liquid - Moist Air",
@@ -7770,21 +7492,15 @@ SIMLIB_DB = {
     },
     "Cooling Tower (TL-MA)": {
         "name": "Cooling Tower (TL-MA)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Thermal Liquid - Moist Air/Cooling Tower (TL-MA)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Thermal Liquid - Moist Air/Cooling Tower (TL-MA)"],
     },
     "Heat Exchanger (TL-MA)": {
         "name": "Heat Exchanger (TL-MA)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Thermal Liquid - Moist Air/Heat Exchanger (TL-MA)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Thermal Liquid - Moist Air/Heat Exchanger (TL-MA)"],
     },
     "System-Level Heat Exchanger (TL-MA)": {
         "name": "System-Level Heat Exchanger (TL-MA)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Thermal Liquid - Moist Air/System-Level Heat Exchanger (TL-MA)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Thermal Liquid - Moist Air/System-Level Heat Exchanger (TL-MA)"],
     },
     "Thermal Liquid - Gas": {
         "name": "Thermal Liquid - Gas",
@@ -7792,21 +7508,15 @@ SIMLIB_DB = {
     },
     "Heat Exchanger (G-TL)": {
         "name": "Heat Exchanger (G-TL)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Thermal Liquid - Gas/Heat Exchanger (G-TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Thermal Liquid - Gas/Heat Exchanger (G-TL)"],
     },
     "Specific Dissipation Heat Exchanger (G-TL)": {
         "name": "Specific Dissipation Heat Exchanger (G-TL)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Thermal Liquid - Gas/Specific Dissipation Heat Exchanger (G-TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Thermal Liquid - Gas/Specific Dissipation Heat Exchanger (G-TL)"],
     },
     "System-Level Heat Exchanger (TL-G)": {
         "name": "System-Level Heat Exchanger (TL-G)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Thermal Liquid - Gas/System-Level Heat Exchanger (TL-G)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Thermal Liquid - Gas/System-Level Heat Exchanger (TL-G)"],
     },
     "Two-Phase Fluid": {
         "name": "Two-Phase Fluid",
@@ -7818,9 +7528,7 @@ SIMLIB_DB = {
     },
     "System-Level Heat Exchanger (2P-2P)": {
         "name": "System-Level Heat Exchanger (2P-2P)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Two-Phase Fluid/System-Level Heat Exchanger (2P-2P)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Two-Phase Fluid/System-Level Heat Exchanger (2P-2P)"],
     },
     "Two-Phase Fluid - Gas": {
         "name": "Two-Phase Fluid - Gas",
@@ -7828,15 +7536,11 @@ SIMLIB_DB = {
     },
     "Condenser Evaporator (2P-G)": {
         "name": "Condenser Evaporator (2P-G)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Two-Phase Fluid - Gas/Condenser Evaporator (2P-G)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Two-Phase Fluid - Gas/Condenser Evaporator (2P-G)"],
     },
     "System-Level Condenser Evaporator (2P-G)": {
         "name": "System-Level Condenser Evaporator (2P-G)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Two-Phase Fluid - Gas/System-Level Condenser Evaporator (2P-G)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Two-Phase Fluid - Gas/System-Level Condenser Evaporator (2P-G)"],
     },
     "Two-Phase Fluid - Moist Air": {
         "name": "Two-Phase Fluid - Moist Air",
@@ -7844,9 +7548,7 @@ SIMLIB_DB = {
     },
     "Condenser Evaporator (2P-MA)": {
         "name": "Condenser Evaporator (2P-MA)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Two-Phase Fluid - Moist Air/Condenser Evaporator (2P-MA)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Two-Phase Fluid - Moist Air/Condenser Evaporator (2P-MA)"],
     },
     "System-Level Condenser Evaporator (2P-MA)": {
         "name": "System-Level Condenser Evaporator (2P-MA)",
@@ -7856,15 +7558,11 @@ SIMLIB_DB = {
     },
     "Two-Phase Fluid - Thermal Liquid": {
         "name": "Two-Phase Fluid - Thermal Liquid",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Two-Phase Fluid - Thermal Liquid"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Two-Phase Fluid - Thermal Liquid"],
     },
     "Condenser Evaporator (TL-2P)": {
         "name": "Condenser Evaporator (TL-2P)",
-        "paths": [
-            "SimscapeFluids_lib/Heat Exchangers/Two-Phase Fluid - Thermal Liquid/Condenser Evaporator (TL-2P)"
-        ],
+        "paths": ["SimscapeFluids_lib/Heat Exchangers/Two-Phase Fluid - Thermal Liquid/Condenser Evaporator (TL-2P)"],
     },
     "Plate Condenser Evaporator (TL-2P)": {
         "name": "Plate Condenser Evaporator (TL-2P)",
@@ -7892,75 +7590,51 @@ SIMLIB_DB = {
     },
     "Cylinder Cushion (IL)": {
         "name": "Cylinder Cushion (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Actuators/Auxiliary Components/Cylinder Cushion (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Actuators/Auxiliary Components/Cylinder Cushion (IL)"],
     },
     "Cylinder Friction (IL)": {
         "name": "Cylinder Friction (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Actuators/Auxiliary Components/Cylinder Friction (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Actuators/Auxiliary Components/Cylinder Friction (IL)"],
     },
     "Rotating Channel (IL)": {
         "name": "Rotating Channel (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Actuators/Auxiliary Components/Rotating Channel (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Actuators/Auxiliary Components/Rotating Channel (IL)"],
     },
     "Rotating Cylinder Force (IL)": {
         "name": "Rotating Cylinder Force (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Actuators/Auxiliary Components/Rotating Cylinder Force (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Actuators/Auxiliary Components/Rotating Cylinder Force (IL)"],
     },
     "Double-Acting Actuator (G-IL)": {
         "name": "Double-Acting Actuator (G-IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Actuators/Double-Acting Actuator (G-IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Actuators/Double-Acting Actuator (G-IL)"],
     },
     "Double-Acting Actuator (IL)": {
         "name": "Double-Acting Actuator (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Actuators/Double-Acting Actuator (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Actuators/Double-Acting Actuator (IL)"],
     },
     "Double-Acting Rotary Actuator (IL)": {
         "name": "Double-Acting Rotary Actuator (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Actuators/Double-Acting Rotary Actuator (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Actuators/Double-Acting Rotary Actuator (IL)"],
     },
     "Rotating Single-Acting Actuator (IL)": {
         "name": "Rotating Single-Acting Actuator (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Actuators/Rotating Single-Acting Actuator (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Actuators/Rotating Single-Acting Actuator (IL)"],
     },
     "Single-Acting Actuator (IL)": {
         "name": "Single-Acting Actuator (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Actuators/Single-Acting Actuator (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Actuators/Single-Acting Actuator (IL)"],
     },
     "Single-Acting Rotary Actuator (IL)": {
         "name": "Single-Acting Rotary Actuator (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Actuators/Single-Acting Rotary Actuator (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Actuators/Single-Acting Rotary Actuator (IL)"],
     },
     "Area Change (IL)": {
         "name": "Area Change (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Pipes & Fittings/Area Change (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Pipes & Fittings/Area Change (IL)"],
     },
     "Cross-Junction (IL)": {
         "name": "Cross-Junction (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Pipes & Fittings/Cross-Junction (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Pipes & Fittings/Cross-Junction (IL)"],
     },
     "Elbow (IL)": {
         "name": "Elbow (IL)",
@@ -7968,15 +7642,11 @@ SIMLIB_DB = {
     },
     "Local Resistance (IL)": {
         "name": "Local Resistance (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Pipes & Fittings/Local Resistance (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Pipes & Fittings/Local Resistance (IL)"],
     },
     "Partially Filled Pipe (IL)": {
         "name": "Partially Filled Pipe (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Pipes & Fittings/Partially Filled Pipe (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Pipes & Fittings/Partially Filled Pipe (IL)"],
     },
     "Pipe (IL)": {
         "name": "Pipe (IL)",
@@ -7987,21 +7657,15 @@ SIMLIB_DB = {
     },
     "Pipe Bend (IL)": {
         "name": "Pipe Bend (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Pipes & Fittings/Pipe Bend (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Pipes & Fittings/Pipe Bend (IL)"],
     },
     "T-Junction (IL)": {
         "name": "T-Junction (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Pipes & Fittings/T-Junction (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Pipes & Fittings/T-Junction (IL)"],
     },
     "Y-Junction (IL)": {
         "name": "Y-Junction (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Pipes & Fittings/Y-Junction (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Pipes & Fittings/Y-Junction (IL)"],
     },
     "Pumps & Motors": {
         "name": "Pumps & Motors",
@@ -8019,27 +7683,19 @@ SIMLIB_DB = {
     },
     "Valve Plate Orifice (IL)": {
         "name": "Valve Plate Orifice (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Pumps & Motors/Auxiliary Components/Valve Plate Orifice (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Pumps & Motors/Auxiliary Components/Valve Plate Orifice (IL)"],
     },
     "Centrifugal Pump (IL)": {
         "name": "Centrifugal Pump (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Pumps & Motors/Centrifugal Pump (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Pumps & Motors/Centrifugal Pump (IL)"],
     },
     "Fixed-Displacement Motor (IL)": {
         "name": "Fixed-Displacement Motor (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Pumps & Motors/Fixed-Displacement Motor (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Pumps & Motors/Fixed-Displacement Motor (IL)"],
     },
     "Fixed-Displacement Pump (IL)": {
         "name": "Fixed-Displacement Pump (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Pumps & Motors/Fixed-Displacement Pump (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Pumps & Motors/Fixed-Displacement Pump (IL)"],
     },
     "Jet Pump (IL)": {
         "name": "Jet Pump (IL)",
@@ -8047,21 +7703,15 @@ SIMLIB_DB = {
     },
     "Pressure-Compensated Pump (IL)": {
         "name": "Pressure-Compensated Pump (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Pumps & Motors/Pressure-Compensated Pump (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Pumps & Motors/Pressure-Compensated Pump (IL)"],
     },
     "Variable-Displacement Motor (IL)": {
         "name": "Variable-Displacement Motor (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Pumps & Motors/Variable-Displacement Motor (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Pumps & Motors/Variable-Displacement Motor (IL)"],
     },
     "Variable-Displacement Pump (IL)": {
         "name": "Variable-Displacement Pump (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Pumps & Motors/Variable-Displacement Pump (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Pumps & Motors/Variable-Displacement Pump (IL)"],
     },
     "Tanks & Accumulators": {
         "name": "Tanks & Accumulators",
@@ -8073,33 +7723,23 @@ SIMLIB_DB = {
     },
     "Gas-Charged Accumulator (IL)": {
         "name": "Gas-Charged Accumulator (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Tanks & Accumulators/Gas-Charged Accumulator (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Tanks & Accumulators/Gas-Charged Accumulator (IL)"],
     },
     "Spring-Loaded Accumulator (IL)": {
         "name": "Spring-Loaded Accumulator (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Tanks & Accumulators/Spring-Loaded Accumulator (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Tanks & Accumulators/Spring-Loaded Accumulator (IL)"],
     },
     "Tank (G-IL)": {
         "name": "Tank (G-IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Tanks & Accumulators/Tank (G-IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Tanks & Accumulators/Tank (G-IL)"],
     },
     "Tank (IL)": {
         "name": "Tank (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Tanks & Accumulators/Tank (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Tanks & Accumulators/Tank (IL)"],
     },
     "Isothermal Liquid Predefined Properties (IL)": {
         "name": "Isothermal Liquid Predefined Properties (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Utilities/Isothermal Liquid Predefined Properties (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Utilities/Isothermal Liquid Predefined Properties (IL)"],
     },
     "2-Way Directional Valve (IL)": {
         "name": "2-Way Directional Valve (IL)",
@@ -8127,9 +7767,7 @@ SIMLIB_DB = {
     },
     "Check Valve (IL)": {
         "name": "Check Valve (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Directional Control Valves/Check Valve (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Directional Control Valves/Check Valve (IL)"],
     },
     "M-Way N-Position Directional Valve (IL)": {
         "name": "M-Way N-Position Directional Valve (IL)",
@@ -8157,9 +7795,7 @@ SIMLIB_DB = {
     },
     "Ball Valve (IL)": {
         "name": "Ball Valve (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Flow Control Valves/Ball Valve (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Flow Control Valves/Ball Valve (IL)"],
     },
     "Cartridge Valve Insert (IL)": {
         "name": "Cartridge Valve Insert (IL)",
@@ -8169,21 +7805,15 @@ SIMLIB_DB = {
     },
     "Gate Valve (IL)": {
         "name": "Gate Valve (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Flow Control Valves/Gate Valve (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Flow Control Valves/Gate Valve (IL)"],
     },
     "Needle Valve (IL)": {
         "name": "Needle Valve (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Flow Control Valves/Needle Valve (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Flow Control Valves/Needle Valve (IL)"],
     },
     "Poppet Valve (IL)": {
         "name": "Poppet Valve (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Flow Control Valves/Poppet Valve (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Flow Control Valves/Poppet Valve (IL)"],
     },
     "Pressure-Compensated 3-Way Flow Control Valve (IL)": {
         "name": "Pressure-Compensated 3-Way Flow Control Valve (IL)",
@@ -8206,27 +7836,19 @@ SIMLIB_DB = {
     },
     "Annular Leakage (IL)": {
         "name": "Annular Leakage (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Orifices/Annular Leakage (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Orifices/Annular Leakage (IL)"],
     },
     "Orifice (IL)": {
         "name": "Orifice (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Orifices/Orifice (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Orifices/Orifice (IL)"],
     },
     "Spool Orifice (IL)": {
         "name": "Spool Orifice (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Orifices/Spool Orifice (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Orifices/Spool Orifice (IL)"],
     },
     "Variable Overlapping Orifice (IL)": {
         "name": "Variable Overlapping Orifice (IL)",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Orifices/Variable Overlapping Orifice (IL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Orifices/Variable Overlapping Orifice (IL)"],
     },
     "Counterbalance Valve (IL)": {
         "name": "Counterbalance Valve (IL)",
@@ -8260,9 +7882,7 @@ SIMLIB_DB = {
     },
     "Valve Actuators & Forces": {
         "name": "Valve Actuators & Forces",
-        "paths": [
-            "SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Valve Actuators & Forces"
-        ],
+        "paths": ["SimscapeFluids_lib/Isothermal Liquid/Valves & Orifices/Valve Actuators & Forces"],
     },
     "Cartridge Valve Actuator (IL)": {
         "name": "Cartridge Valve Actuator (IL)",
@@ -8314,9 +7934,7 @@ SIMLIB_DB = {
     },
     "Local Resistance (MA)": {
         "name": "Local Resistance (MA)",
-        "paths": [
-            "SimscapeFluids_lib/Moist Air/Pipes & Fittings/Local Resistance (MA)"
-        ],
+        "paths": ["SimscapeFluids_lib/Moist Air/Pipes & Fittings/Local Resistance (MA)"],
     },
     "Pipe Bend (MA)": {
         "name": "Pipe Bend (MA)",
@@ -8344,9 +7962,7 @@ SIMLIB_DB = {
     },
     "Positive-Displacement Compressor (MA)": {
         "name": "Positive-Displacement Compressor (MA)",
-        "paths": [
-            "SimscapeFluids_lib/Moist Air/Turbomachinery/Positive-Displacement Compressor (MA)"
-        ],
+        "paths": ["SimscapeFluids_lib/Moist Air/Turbomachinery/Positive-Displacement Compressor (MA)"],
     },
     "Turbine (MA)": {
         "name": "Turbine (MA)",
@@ -8378,9 +7994,7 @@ SIMLIB_DB = {
     },
     "Check Valve (MA)": {
         "name": "Check Valve (MA)",
-        "paths": [
-            "SimscapeFluids_lib/Moist Air/Valves & Orifices/Directional Control Valves/Check Valve (MA)"
-        ],
+        "paths": ["SimscapeFluids_lib/Moist Air/Valves & Orifices/Directional Control Valves/Check Valve (MA)"],
     },
     "Pilot-Operated Check Valve (MA)": {
         "name": "Pilot-Operated Check Valve (MA)",
@@ -8390,27 +8004,19 @@ SIMLIB_DB = {
     },
     "Ball Valve (MA)": {
         "name": "Ball Valve (MA)",
-        "paths": [
-            "SimscapeFluids_lib/Moist Air/Valves & Orifices/Flow Control Valves/Ball Valve (MA)"
-        ],
+        "paths": ["SimscapeFluids_lib/Moist Air/Valves & Orifices/Flow Control Valves/Ball Valve (MA)"],
     },
     "Gate Valve (MA)": {
         "name": "Gate Valve (MA)",
-        "paths": [
-            "SimscapeFluids_lib/Moist Air/Valves & Orifices/Flow Control Valves/Gate Valve (MA)"
-        ],
+        "paths": ["SimscapeFluids_lib/Moist Air/Valves & Orifices/Flow Control Valves/Gate Valve (MA)"],
     },
     "Poppet Valve (MA)": {
         "name": "Poppet Valve (MA)",
-        "paths": [
-            "SimscapeFluids_lib/Moist Air/Valves & Orifices/Flow Control Valves/Poppet Valve (MA)"
-        ],
+        "paths": ["SimscapeFluids_lib/Moist Air/Valves & Orifices/Flow Control Valves/Poppet Valve (MA)"],
     },
     "Temperature Control Valve (MA)": {
         "name": "Temperature Control Valve (MA)",
-        "paths": [
-            "SimscapeFluids_lib/Moist Air/Valves & Orifices/Flow Control Valves/Temperature Control Valve (MA)"
-        ],
+        "paths": ["SimscapeFluids_lib/Moist Air/Valves & Orifices/Flow Control Valves/Temperature Control Valve (MA)"],
     },
     "Orifice (MA)": {
         "name": "Orifice (MA)",
@@ -8430,45 +8036,31 @@ SIMLIB_DB = {
     },
     "Pressure Relief Valve (MA)": {
         "name": "Pressure Relief Valve (MA)",
-        "paths": [
-            "SimscapeFluids_lib/Moist Air/Valves & Orifices/Pressure Control Valves/Pressure Relief Valve (MA)"
-        ],
+        "paths": ["SimscapeFluids_lib/Moist Air/Valves & Orifices/Pressure Control Valves/Pressure Relief Valve (MA)"],
     },
     "Cylinder Cushion (TL)": {
         "name": "Cylinder Cushion (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Actuators/Auxiliary Components/Cylinder Cushion (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Actuators/Auxiliary Components/Cylinder Cushion (TL)"],
     },
     "Cylinder Friction (TL)": {
         "name": "Cylinder Friction (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Actuators/Auxiliary Components/Cylinder Friction (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Actuators/Auxiliary Components/Cylinder Friction (TL)"],
     },
     "Double-Acting Actuator (TL)": {
         "name": "Double-Acting Actuator (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Actuators/Double-Acting Actuator (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Actuators/Double-Acting Actuator (TL)"],
     },
     "Double-Acting Actuator (TL-G)": {
         "name": "Double-Acting Actuator (TL-G)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Actuators/Double-Acting Actuator (TL-G)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Actuators/Double-Acting Actuator (TL-G)"],
     },
     "Single-Acting Actuator (TL)": {
         "name": "Single-Acting Actuator (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Actuators/Single-Acting Actuator (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Actuators/Single-Acting Actuator (TL)"],
     },
     "Cross-Junction (TL)": {
         "name": "Cross-Junction (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Pipes & Fittings/Cross-Junction (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Pipes & Fittings/Cross-Junction (TL)"],
     },
     "Elbow (TL)": {
         "name": "Elbow (TL)",
@@ -8476,15 +8068,11 @@ SIMLIB_DB = {
     },
     "Local Resistance (TL)": {
         "name": "Local Resistance (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Pipes & Fittings/Local Resistance (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Pipes & Fittings/Local Resistance (TL)"],
     },
     "Partially Filled Pipe (TL)": {
         "name": "Partially Filled Pipe (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Pipes & Fittings/Partially Filled Pipe (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Pipes & Fittings/Partially Filled Pipe (TL)"],
     },
     "Pipe (TL)": {
         "name": "Pipe (TL)",
@@ -8499,9 +8087,7 @@ SIMLIB_DB = {
     },
     "Sudden Area Change (TL)": {
         "name": "Sudden Area Change (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Pipes & Fittings/Sudden Area Change (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Pipes & Fittings/Sudden Area Change (TL)"],
     },
     "T-Junction (TL)": {
         "name": "T-Junction (TL)",
@@ -8513,21 +8099,15 @@ SIMLIB_DB = {
     },
     "Centrifugal Pump (TL)": {
         "name": "Centrifugal Pump (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Pumps & Motors/Centrifugal Pump (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Pumps & Motors/Centrifugal Pump (TL)"],
     },
     "Fixed-Displacement Motor (TL)": {
         "name": "Fixed-Displacement Motor (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Pumps & Motors/Fixed-Displacement Motor (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Pumps & Motors/Fixed-Displacement Motor (TL)"],
     },
     "Fixed-Displacement Pump (TL)": {
         "name": "Fixed-Displacement Pump (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Pumps & Motors/Fixed-Displacement Pump (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Pumps & Motors/Fixed-Displacement Pump (TL)"],
     },
     "Jet Pump (TL)": {
         "name": "Jet Pump (TL)",
@@ -8535,21 +8115,15 @@ SIMLIB_DB = {
     },
     "Variable-Displacement Motor (TL)": {
         "name": "Variable-Displacement Motor (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Pumps & Motors/Variable-Displacement Motor (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Pumps & Motors/Variable-Displacement Motor (TL)"],
     },
     "Variable-Displacement Pump (TL)": {
         "name": "Variable-Displacement Pump (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Pumps & Motors/Variable-Displacement Pump (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Pumps & Motors/Variable-Displacement Pump (TL)"],
     },
     "Gas-Charged Accumulator (TL)": {
         "name": "Gas-Charged Accumulator (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Tanks & Accumulators/Gas-Charged Accumulator (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Tanks & Accumulators/Gas-Charged Accumulator (TL)"],
     },
     "Tank (G-TL)": {
         "name": "Tank (G-TL)",
@@ -8561,9 +8135,7 @@ SIMLIB_DB = {
     },
     "Thermal Liquid Properties (TL)": {
         "name": "Thermal Liquid Properties (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Utilities/Thermal Liquid Properties (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Utilities/Thermal Liquid Properties (TL)"],
     },
     "2-Way Directional Valve (TL)": {
         "name": "2-Way Directional Valve (TL)",
@@ -8591,9 +8163,7 @@ SIMLIB_DB = {
     },
     "Check Valve (TL)": {
         "name": "Check Valve (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Valves & Orifices/Directional Control Valves/Check Valve (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Valves & Orifices/Directional Control Valves/Check Valve (TL)"],
     },
     "Pilot-Operated Check Valve (TL)": {
         "name": "Pilot-Operated Check Valve (TL)",
@@ -8603,21 +8173,15 @@ SIMLIB_DB = {
     },
     "Flow Coefficient Parameterized Valve (TL)": {
         "name": "Flow Coefficient Parameterized Valve (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Valves & Orifices/Flow Coefficient Parameterized Valve (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Valves & Orifices/Flow Coefficient Parameterized Valve (TL)"],
     },
     "Gate Valve (TL)": {
         "name": "Gate Valve (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Valves & Orifices/Flow Control Valves/Gate Valve (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Valves & Orifices/Flow Control Valves/Gate Valve (TL)"],
     },
     "Poppet Valve (TL)": {
         "name": "Poppet Valve (TL)",
-        "paths": [
-            "SimscapeFluids_lib/Thermal Liquid/Valves & Orifices/Flow Control Valves/Poppet Valve (TL)"
-        ],
+        "paths": ["SimscapeFluids_lib/Thermal Liquid/Valves & Orifices/Flow Control Valves/Poppet Valve (TL)"],
     },
     "Temperature Control Valve (TL)": {
         "name": "Temperature Control Valve (TL)",
@@ -8659,9 +8223,7 @@ SIMLIB_DB = {
     },
     "Centrifugal Pump (2P)": {
         "name": "Centrifugal Pump (2P)",
-        "paths": [
-            "SimscapeFluids_lib/Two-Phase Fluid/Fluid Machines/Centrifugal Pump (2P)"
-        ],
+        "paths": ["SimscapeFluids_lib/Two-Phase Fluid/Fluid Machines/Centrifugal Pump (2P)"],
     },
     "Compressor (2P)": {
         "name": "Compressor (2P)",
@@ -8669,15 +8231,11 @@ SIMLIB_DB = {
     },
     "Fixed-Displacement Pump (2P)": {
         "name": "Fixed-Displacement Pump (2P)",
-        "paths": [
-            "SimscapeFluids_lib/Two-Phase Fluid/Fluid Machines/Fixed-Displacement Pump (2P)"
-        ],
+        "paths": ["SimscapeFluids_lib/Two-Phase Fluid/Fluid Machines/Fixed-Displacement Pump (2P)"],
     },
     "Positive-Displacement Compressor (2P)": {
         "name": "Positive-Displacement Compressor (2P)",
-        "paths": [
-            "SimscapeFluids_lib/Two-Phase Fluid/Fluid Machines/Positive-Displacement Compressor (2P)"
-        ],
+        "paths": ["SimscapeFluids_lib/Two-Phase Fluid/Fluid Machines/Positive-Displacement Compressor (2P)"],
     },
     "Turbine (2P)": {
         "name": "Turbine (2P)",
@@ -8685,21 +8243,15 @@ SIMLIB_DB = {
     },
     "Variable-Displacement Pump (2P)": {
         "name": "Variable-Displacement Pump (2P)",
-        "paths": [
-            "SimscapeFluids_lib/Two-Phase Fluid/Fluid Machines/Variable-Displacement Pump (2P)"
-        ],
+        "paths": ["SimscapeFluids_lib/Two-Phase Fluid/Fluid Machines/Variable-Displacement Pump (2P)"],
     },
     "3-Zone Pipe (2P)": {
         "name": "3-Zone Pipe (2P)",
-        "paths": [
-            "SimscapeFluids_lib/Two-Phase Fluid/Pipes & Fittings/3-Zone Pipe (2P)"
-        ],
+        "paths": ["SimscapeFluids_lib/Two-Phase Fluid/Pipes & Fittings/3-Zone Pipe (2P)"],
     },
     "Receiver Accumulator (2P)": {
         "name": "Receiver Accumulator (2P)",
-        "paths": [
-            "SimscapeFluids_lib/Two-Phase Fluid/Tanks & Accumulators/Receiver Accumulator (2P)"
-        ],
+        "paths": ["SimscapeFluids_lib/Two-Phase Fluid/Tanks & Accumulators/Receiver Accumulator (2P)"],
     },
     "Thermodynamic Cycles": {
         "name": "Thermodynamic Cycles",
@@ -8707,9 +8259,7 @@ SIMLIB_DB = {
     },
     "System-Level Refrigeration Cycle (2P)": {
         "name": "System-Level Refrigeration Cycle (2P)",
-        "paths": [
-            "SimscapeFluids_lib/Two-Phase Fluid/Thermodynamic Cycles/System-Level Refrigeration Cycle (2P)"
-        ],
+        "paths": ["SimscapeFluids_lib/Two-Phase Fluid/Thermodynamic Cycles/System-Level Refrigeration Cycle (2P)"],
     },
     "P-H Diagram (2P)": {
         "name": "P-H Diagram (2P)",
@@ -8717,9 +8267,7 @@ SIMLIB_DB = {
     },
     "Two-Phase Fluid Predefined Properties (2P)": {
         "name": "Two-Phase Fluid Predefined Properties (2P)",
-        "paths": [
-            "SimscapeFluids_lib/Two-Phase Fluid/Utilities/Two-Phase Fluid Predefined Properties (2P)"
-        ],
+        "paths": ["SimscapeFluids_lib/Two-Phase Fluid/Utilities/Two-Phase Fluid Predefined Properties (2P)"],
     },
     "4-Way 2-Position Directional Valve (2P)": {
         "name": "4-Way 2-Position Directional Valve (2P)",
@@ -8735,9 +8283,7 @@ SIMLIB_DB = {
     },
     "Check Valve (2P)": {
         "name": "Check Valve (2P)",
-        "paths": [
-            "SimscapeFluids_lib/Two-Phase Fluid/Valves & Orifices/Directional Control Valves/Check Valve (2P)"
-        ],
+        "paths": ["SimscapeFluids_lib/Two-Phase Fluid/Valves & Orifices/Directional Control Valves/Check Valve (2P)"],
     },
     "Thermostatic Expansion Valve (2P)": {
         "name": "Thermostatic Expansion Valve (2P)",
@@ -8926,15 +8472,11 @@ SIMLIB_DB = {
     },
     "Simplified Synchronous Machine SI Units": {
         "name": "Simplified Synchronous Machine SI Units",
-        "paths": [
-            "sps_lib/Electrical Machines/Simplified Synchronous Machine SI Units"
-        ],
+        "paths": ["sps_lib/Electrical Machines/Simplified Synchronous Machine SI Units"],
     },
     "Simplified Synchronous Machine pu Units": {
         "name": "Simplified Synchronous Machine pu Units",
-        "paths": [
-            "sps_lib/Electrical Machines/Simplified Synchronous Machine pu Units"
-        ],
+        "paths": ["sps_lib/Electrical Machines/Simplified Synchronous Machine pu Units"],
     },
     "Single Phase Asynchronous Machine": {
         "name": "Single Phase Asynchronous Machine",
@@ -8962,75 +8504,51 @@ SIMLIB_DB = {
     },
     "AC1A Excitation System": {
         "name": "AC1A Excitation System",
-        "paths": [
-            "sps_lib/Electrical Machines/Synchronous Machine Control/AC1A Excitation System"
-        ],
+        "paths": ["sps_lib/Electrical Machines/Synchronous Machine Control/AC1A Excitation System"],
     },
     "AC4A Excitation System": {
         "name": "AC4A Excitation System",
-        "paths": [
-            "sps_lib/Electrical Machines/Synchronous Machine Control/AC4A Excitation System"
-        ],
+        "paths": ["sps_lib/Electrical Machines/Synchronous Machine Control/AC4A Excitation System"],
     },
     "AC5A Excitation System": {
         "name": "AC5A Excitation System",
-        "paths": [
-            "sps_lib/Electrical Machines/Synchronous Machine Control/AC5A Excitation System"
-        ],
+        "paths": ["sps_lib/Electrical Machines/Synchronous Machine Control/AC5A Excitation System"],
     },
     "DC1A Excitation System": {
         "name": "DC1A Excitation System",
-        "paths": [
-            "sps_lib/Electrical Machines/Synchronous Machine Control/DC1A Excitation System"
-        ],
+        "paths": ["sps_lib/Electrical Machines/Synchronous Machine Control/DC1A Excitation System"],
     },
     "DC2A Excitation System": {
         "name": "DC2A Excitation System",
-        "paths": [
-            "sps_lib/Electrical Machines/Synchronous Machine Control/DC2A Excitation System"
-        ],
+        "paths": ["sps_lib/Electrical Machines/Synchronous Machine Control/DC2A Excitation System"],
     },
     "Excitation System": {
         "name": "Excitation System",
-        "paths": [
-            "sps_lib/Electrical Machines/Synchronous Machine Control/Excitation System"
-        ],
+        "paths": ["sps_lib/Electrical Machines/Synchronous Machine Control/Excitation System"],
     },
     "Generic Power System Stabilizer": {
         "name": "Generic Power System Stabilizer",
-        "paths": [
-            "sps_lib/Electrical Machines/Synchronous Machine Control/Generic Power System Stabilizer"
-        ],
+        "paths": ["sps_lib/Electrical Machines/Synchronous Machine Control/Generic Power System Stabilizer"],
     },
     "Hydraulic Turbine and Governor": {
         "name": "Hydraulic Turbine and Governor",
-        "paths": [
-            "sps_lib/Electrical Machines/Synchronous Machine Control/Hydraulic Turbine and Governor"
-        ],
+        "paths": ["sps_lib/Electrical Machines/Synchronous Machine Control/Hydraulic Turbine and Governor"],
     },
     "Multi-Band Power System Stabilizer": {
         "name": "Multi-Band Power System Stabilizer",
-        "paths": [
-            "sps_lib/Electrical Machines/Synchronous Machine Control/Multi-Band Power System Stabilizer"
-        ],
+        "paths": ["sps_lib/Electrical Machines/Synchronous Machine Control/Multi-Band Power System Stabilizer"],
     },
     "ST1A Excitation System": {
         "name": "ST1A Excitation System",
-        "paths": [
-            "sps_lib/Electrical Machines/Synchronous Machine Control/ST1A Excitation System"
-        ],
+        "paths": ["sps_lib/Electrical Machines/Synchronous Machine Control/ST1A Excitation System"],
     },
     "ST2A Excitation System": {
         "name": "ST2A Excitation System",
-        "paths": [
-            "sps_lib/Electrical Machines/Synchronous Machine Control/ST2A Excitation System"
-        ],
+        "paths": ["sps_lib/Electrical Machines/Synchronous Machine Control/ST2A Excitation System"],
     },
     "Steam Turbine and Governor": {
         "name": "Steam Turbine and Governor",
-        "paths": [
-            "sps_lib/Electrical Machines/Synchronous Machine Control/Steam Turbine and Governor"
-        ],
+        "paths": ["sps_lib/Electrical Machines/Synchronous Machine Control/Steam Turbine and Governor"],
     },
     "Wind Turbine": {
         "name": "Wind Turbine",
@@ -9041,15 +8559,11 @@ SIMLIB_DB = {
     },
     "Wind Turbine Doubly-Fed Induction Generator (Phasor Type)": {
         "name": "Wind Turbine Doubly-Fed Induction Generator (Phasor Type)",
-        "paths": [
-            "sps_lib/Electrical Machines/Wind Turbine Doubly-Fed Induction Generator (Phasor Type)"
-        ],
+        "paths": ["sps_lib/Electrical Machines/Wind Turbine Doubly-Fed Induction Generator (Phasor Type)"],
     },
     "Wind Turbine Induction Generator (Phasor Type)": {
         "name": "Wind Turbine Induction Generator (Phasor Type)",
-        "paths": [
-            "sps_lib/Electrical Machines/Wind Turbine Induction Generator (Phasor Type)"
-        ],
+        "paths": ["sps_lib/Electrical Machines/Wind Turbine Induction Generator (Phasor Type)"],
     },
     "Passives": {"name": "Passives", "paths": ["sps_lib/Passives"]},
     "Mutual Inductance": {
@@ -9160,57 +8674,39 @@ SIMLIB_DB = {
     },
     "PWM Generator (2-Level)": {
         "name": "PWM Generator (2-Level)",
-        "paths": [
-            "sps_lib/Power Electronics/Power Electronics Control/PWM Generator (2-Level)"
-        ],
+        "paths": ["sps_lib/Power Electronics/Power Electronics Control/PWM Generator (2-Level)"],
     },
     "PWM Generator (3-Level)": {
         "name": "PWM Generator (3-Level)",
-        "paths": [
-            "sps_lib/Power Electronics/Power Electronics Control/PWM Generator (3-Level)"
-        ],
+        "paths": ["sps_lib/Power Electronics/Power Electronics Control/PWM Generator (3-Level)"],
     },
     "PWM Generator (DC-DC)": {
         "name": "PWM Generator (DC-DC)",
-        "paths": [
-            "sps_lib/Power Electronics/Power Electronics Control/PWM Generator (DC-DC)"
-        ],
+        "paths": ["sps_lib/Power Electronics/Power Electronics Control/PWM Generator (DC-DC)"],
     },
     "PWM Generator (Interpolation)": {
         "name": "PWM Generator (Interpolation)",
-        "paths": [
-            "sps_lib/Power Electronics/Power Electronics Control/PWM Generator (Interpolation)"
-        ],
+        "paths": ["sps_lib/Power Electronics/Power Electronics Control/PWM Generator (Interpolation)"],
     },
     "PWM Generator (Pulse Averaging)": {
         "name": "PWM Generator (Pulse Averaging)",
-        "paths": [
-            "sps_lib/Power Electronics/Power Electronics Control/PWM Generator (Pulse Averaging)"
-        ],
+        "paths": ["sps_lib/Power Electronics/Power Electronics Control/PWM Generator (Pulse Averaging)"],
     },
     "Pulse Generator (Thyristor, 12-Pulse)": {
         "name": "Pulse Generator (Thyristor, 12-Pulse)",
-        "paths": [
-            "sps_lib/Power Electronics/Power Electronics Control/Pulse Generator (Thyristor, 12-Pulse)"
-        ],
+        "paths": ["sps_lib/Power Electronics/Power Electronics Control/Pulse Generator (Thyristor, 12-Pulse)"],
     },
     "Pulse Generator (Thyristor, 6-Pulse)": {
         "name": "Pulse Generator (Thyristor, 6-Pulse)",
-        "paths": [
-            "sps_lib/Power Electronics/Power Electronics Control/Pulse Generator (Thyristor, 6-Pulse)"
-        ],
+        "paths": ["sps_lib/Power Electronics/Power Electronics Control/Pulse Generator (Thyristor, 6-Pulse)"],
     },
     "SVPWM Generator (2-Level)": {
         "name": "SVPWM Generator (2-Level)",
-        "paths": [
-            "sps_lib/Power Electronics/Power Electronics Control/SVPWM Generator (2-Level)"
-        ],
+        "paths": ["sps_lib/Power Electronics/Power Electronics Control/SVPWM Generator (2-Level)"],
     },
     "SVPWM Generator (3-Level)": {
         "name": "SVPWM Generator (3-Level)",
-        "paths": [
-            "sps_lib/Power Electronics/Power Electronics Control/SVPWM Generator (3-Level)"
-        ],
+        "paths": ["sps_lib/Power Electronics/Power Electronics Control/SVPWM Generator (3-Level)"],
     },
     "Three-Level NPC Converter": {
         "name": "Three-Level NPC Converter",
@@ -9251,9 +8747,7 @@ SIMLIB_DB = {
     },
     "Distributed Parameters Line (Frequency-Dependent)": {
         "name": "Distributed Parameters Line (Frequency-Dependent)",
-        "paths": [
-            "sps_lib/Power Grid Elements/Distributed Parameters Line (Frequency-Dependent)"
-        ],
+        "paths": ["sps_lib/Power Grid Elements/Distributed Parameters Line (Frequency-Dependent)"],
     },
     "Grounding Transformer ": {
         "name": "Grounding Transformer ",
@@ -9277,9 +8771,7 @@ SIMLIB_DB = {
     },
     "Three-Phase Autotransformer with Tertiary Winding": {
         "name": "Three-Phase Autotransformer with Tertiary Winding",
-        "paths": [
-            "sps_lib/Power Grid Elements/Three-Phase Autotransformer with Tertiary Winding"
-        ],
+        "paths": ["sps_lib/Power Grid Elements/Three-Phase Autotransformer with Tertiary Winding"],
     },
     "Three-Phase Mutual Inductance Z1-Z0": {
         "name": "Three-Phase Mutual Inductance Z1-Z0",
@@ -9291,21 +8783,15 @@ SIMLIB_DB = {
     },
     "Three-Phase Tap-Changing Transformer (Three-Windings)": {
         "name": "Three-Phase Tap-Changing Transformer (Three-Windings)",
-        "paths": [
-            "sps_lib/Power Grid Elements/Three-Phase Tap-Changing Transformer (Three-Windings)"
-        ],
+        "paths": ["sps_lib/Power Grid Elements/Three-Phase Tap-Changing Transformer (Three-Windings)"],
     },
     "Three-Phase Tap-Changing Transformer (Two-Windings)": {
         "name": "Three-Phase Tap-Changing Transformer (Two-Windings)",
-        "paths": [
-            "sps_lib/Power Grid Elements/Three-Phase Tap-Changing Transformer (Two-Windings)"
-        ],
+        "paths": ["sps_lib/Power Grid Elements/Three-Phase Tap-Changing Transformer (Two-Windings)"],
     },
     "Three-Phase Transformer (Three Windings)": {
         "name": "Three-Phase Transformer (Three Windings)",
-        "paths": [
-            "sps_lib/Power Grid Elements/Three-Phase Transformer (Three Windings)"
-        ],
+        "paths": ["sps_lib/Power Grid Elements/Three-Phase Transformer (Three Windings)"],
     },
     "Three-Phase Transformer (Two Windings)": {
         "name": "Three-Phase Transformer (Two Windings)",
@@ -9327,9 +8813,7 @@ SIMLIB_DB = {
     },
     "Three-Phase OLTC Regulating Transformer (Phasor Type)": {
         "name": "Three-Phase OLTC Regulating Transformer (Phasor Type)",
-        "paths": [
-            "sps_lib/Power Grid Elements/Three-Phase OLTC Regulating Transformer (Phasor Type)"
-        ],
+        "paths": ["sps_lib/Power Grid Elements/Three-Phase OLTC Regulating Transformer (Phasor Type)"],
     },
     "Three-Phase Transformer 12 Terminals": {
         "name": "Three-Phase Transformer 12 Terminals",
@@ -9337,15 +8821,11 @@ SIMLIB_DB = {
     },
     "Three-Phase Transformer Inductance Matrix Type (Three Windings)": {
         "name": "Three-Phase Transformer Inductance Matrix Type (Three Windings)",
-        "paths": [
-            "sps_lib/Power Grid Elements/Three-Phase Transformer Inductance Matrix Type (Three Windings)"
-        ],
+        "paths": ["sps_lib/Power Grid Elements/Three-Phase Transformer Inductance Matrix Type (Three Windings)"],
     },
     "Three-Phase Transformer Inductance Matrix Type (Two Windings)": {
         "name": "Three-Phase Transformer Inductance Matrix Type (Two Windings)",
-        "paths": [
-            "sps_lib/Power Grid Elements/Three-Phase Transformer Inductance Matrix Type (Two Windings)"
-        ],
+        "paths": ["sps_lib/Power Grid Elements/Three-Phase Transformer Inductance Matrix Type (Two Windings)"],
     },
     "Zigzag Phase-Shifting Transformer": {
         "name": "Zigzag Phase-Shifting Transformer",
@@ -9394,9 +8874,7 @@ SIMLIB_DB = {
     },
     "PMU (PLL-Based, Positive-Sequence)": {
         "name": "PMU (PLL-Based, Positive-Sequence)",
-        "paths": [
-            "sps_lib/Sensors and Measurements/PMU (PLL-Based, Positive-Sequence)"
-        ],
+        "paths": ["sps_lib/Sensors and Measurements/PMU (PLL-Based, Positive-Sequence)"],
     },
     "Positive-Sequence (PLL-Driven)": {
         "name": "Positive-Sequence (PLL-Driven)",
@@ -9412,9 +8890,7 @@ SIMLIB_DB = {
     },
     "Power (PLL-Driven, Positive-Sequence)": {
         "name": "Power (PLL-Driven, Positive-Sequence)",
-        "paths": [
-            "sps_lib/Sensors and Measurements/Power (PLL-Driven, Positive-Sequence)"
-        ],
+        "paths": ["sps_lib/Sensors and Measurements/Power (PLL-Driven, Positive-Sequence)"],
     },
     "Power (Phasor)": {
         "name": "Power (Phasor)",
@@ -9475,15 +8951,11 @@ SIMLIB_DB = {
     },
     "Three-Phase Programmable Generator": {
         "name": "Three-Phase Programmable Generator",
-        "paths": [
-            "sps_lib/Sources/Signal Generator Sources/Three-Phase Programmable Generator"
-        ],
+        "paths": ["sps_lib/Sources/Signal Generator Sources/Three-Phase Programmable Generator"],
     },
     "Three-Phase Sine Generator": {
         "name": "Three-Phase Sine Generator",
-        "paths": [
-            "sps_lib/Sources/Signal Generator Sources/Three-Phase Sine Generator"
-        ],
+        "paths": ["sps_lib/Sources/Signal Generator Sources/Three-Phase Sine Generator"],
     },
     "Triangle Generator": {
         "name": "Triangle Generator",
@@ -9552,9 +9024,7 @@ SIMLIB_DB = {
     },
     "Loaded-Contact Rotational Friction": {
         "name": "Loaded-Contact Rotational Friction",
-        "paths": [
-            "sdl_lib/Brakes & Detents/Rotational/Loaded-Contact Rotational Friction"
-        ],
+        "paths": ["sdl_lib/Brakes & Detents/Rotational/Loaded-Contact Rotational Friction"],
     },
     "Rotational Detent": {
         "name": "Rotational Detent",
@@ -9566,9 +9036,7 @@ SIMLIB_DB = {
     },
     "Loaded-Contact Translational Friction": {
         "name": "Loaded-Contact Translational Friction",
-        "paths": [
-            "sdl_lib/Brakes & Detents/Translational/Loaded-Contact Translational Friction"
-        ],
+        "paths": ["sdl_lib/Brakes & Detents/Translational/Loaded-Contact Translational Friction"],
     },
     "Translational Detent": {
         "name": "Translational Detent",
@@ -9587,9 +9055,7 @@ SIMLIB_DB = {
     },
     "Fundamental Friction Clutch": {
         "name": "Fundamental Friction Clutch",
-        "paths": [
-            "sdl_lib/Clutches/Fundamental Components/Fundamental Friction Clutch"
-        ],
+        "paths": ["sdl_lib/Clutches/Fundamental Components/Fundamental Friction Clutch"],
     },
     "Logic-Controlled Clutch": {
         "name": "Logic-Controlled Clutch",
@@ -9644,27 +9110,19 @@ SIMLIB_DB = {
     },
     "Nonlinear Translational Damper": {
         "name": "Nonlinear Translational Damper",
-        "paths": [
-            "sdl_lib/Couplings & Drives/Springs & Dampers/Nonlinear Translational Damper"
-        ],
+        "paths": ["sdl_lib/Couplings & Drives/Springs & Dampers/Nonlinear Translational Damper"],
     },
     "Nonlinear Translational Spring": {
         "name": "Nonlinear Translational Spring",
-        "paths": [
-            "sdl_lib/Couplings & Drives/Springs & Dampers/Nonlinear Translational Spring"
-        ],
+        "paths": ["sdl_lib/Couplings & Drives/Springs & Dampers/Nonlinear Translational Spring"],
     },
     "Nonlinear Rotational Damper": {
         "name": "Nonlinear Rotational Damper",
-        "paths": [
-            "sdl_lib/Couplings & Drives/Springs & Dampers/Nonlinear Rotational Damper"
-        ],
+        "paths": ["sdl_lib/Couplings & Drives/Springs & Dampers/Nonlinear Rotational Damper"],
     },
     "Nonlinear Rotational Spring": {
         "name": "Nonlinear Rotational Spring",
-        "paths": [
-            "sdl_lib/Couplings & Drives/Springs & Dampers/Nonlinear Rotational Spring"
-        ],
+        "paths": ["sdl_lib/Couplings & Drives/Springs & Dampers/Nonlinear Rotational Spring"],
     },
     "Rotational Damper": {
         "name": "Rotational Damper",
@@ -9682,27 +9140,19 @@ SIMLIB_DB = {
     },
     "Variable Translational Damper": {
         "name": "Variable Translational Damper",
-        "paths": [
-            "sdl_lib/Couplings & Drives/Springs & Dampers/Variable Translational Damper"
-        ],
+        "paths": ["sdl_lib/Couplings & Drives/Springs & Dampers/Variable Translational Damper"],
     },
     "Variable Translational Spring": {
         "name": "Variable Translational Spring",
-        "paths": [
-            "sdl_lib/Couplings & Drives/Springs & Dampers/Variable Translational Spring"
-        ],
+        "paths": ["sdl_lib/Couplings & Drives/Springs & Dampers/Variable Translational Spring"],
     },
     "Variable Rotational Damper": {
         "name": "Variable Rotational Damper",
-        "paths": [
-            "sdl_lib/Couplings & Drives/Springs & Dampers/Variable Rotational Damper"
-        ],
+        "paths": ["sdl_lib/Couplings & Drives/Springs & Dampers/Variable Rotational Damper"],
     },
     "Variable Rotational Spring": {
         "name": "Variable Rotational Spring",
-        "paths": [
-            "sdl_lib/Couplings & Drives/Springs & Dampers/Variable Rotational Spring"
-        ],
+        "paths": ["sdl_lib/Couplings & Drives/Springs & Dampers/Variable Rotational Spring"],
     },
     "Torsional Spring-Damper": {
         "name": "Torsional Spring-Damper",
@@ -9738,9 +9188,7 @@ SIMLIB_DB = {
     },
     "Exhaust Manifold Thermal": {
         "name": "Exhaust Manifold Thermal",
-        "paths": [
-            "sdl_lib/Engines & Motors/Engine Subcomponents/Exhaust Manifold Thermal"
-        ],
+        "paths": ["sdl_lib/Engines & Motors/Engine Subcomponents/Exhaust Manifold Thermal"],
     },
     "Ignition Trigger": {
         "name": "Ignition Trigger",
@@ -9748,9 +9196,7 @@ SIMLIB_DB = {
     },
     "SI Combustion Cylinder": {
         "name": "SI Combustion Cylinder",
-        "paths": [
-            "sdl_lib/Engines & Motors/Engine Subcomponents/SI Combustion Cylinder"
-        ],
+        "paths": ["sdl_lib/Engines & Motors/Engine Subcomponents/SI Combustion Cylinder"],
     },
     "Generic Engine": {
         "name": "Generic Engine",
@@ -9958,9 +9404,7 @@ SIMLIB_DB = {
     },
     "Tire-Road Interaction (Magic Formula)": {
         "name": "Tire-Road Interaction (Magic Formula)",
-        "paths": [
-            "sdl_lib/Tires & Vehicles/Tire Subcomponents/Tire-Road Interaction (Magic Formula)"
-        ],
+        "paths": ["sdl_lib/Tires & Vehicles/Tire Subcomponents/Tire-Road Interaction (Magic Formula)"],
     },
     "Vehicle Body": {
         "name": "Vehicle Body",
@@ -10021,9 +9465,7 @@ SIMLIB_DB = {
     },
     "Double-Acting Hydraulic Cylinder (Simple)": {
         "name": "Double-Acting Hydraulic Cylinder (Simple)",
-        "paths": [
-            "sh_lib/Hydraulic Cylinders/Double-Acting Hydraulic Cylinder (Simple)"
-        ],
+        "paths": ["sh_lib/Hydraulic Cylinders/Double-Acting Hydraulic Cylinder (Simple)"],
     },
     "Double-Acting Rotary Actuator": {
         "name": "Double-Acting Rotary Actuator",
@@ -10035,9 +9477,7 @@ SIMLIB_DB = {
     },
     "Single-Acting Hydraulic Cylinder (Simple)": {
         "name": "Single-Acting Hydraulic Cylinder (Simple)",
-        "paths": [
-            "sh_lib/Hydraulic Cylinders/Single-Acting Hydraulic Cylinder (Simple)"
-        ],
+        "paths": ["sh_lib/Hydraulic Cylinders/Single-Acting Hydraulic Cylinder (Simple)"],
     },
     "Single-Acting Rotary Actuator": {
         "name": "Single-Acting Rotary Actuator",
@@ -10094,9 +9534,7 @@ SIMLIB_DB = {
     },
     "Hydraulic Pipe LP with Variable Elevation": {
         "name": "Hydraulic Pipe LP with Variable Elevation",
-        "paths": [
-            "sh_lib/Low-Pressure Blocks/Hydraulic Pipe LP with Variable Elevation"
-        ],
+        "paths": ["sh_lib/Low-Pressure Blocks/Hydraulic Pipe LP with Variable Elevation"],
     },
     "Partially Filled Vertical Pipe LP": {
         "name": "Partially Filled Vertical Pipe LP",
@@ -10108,9 +9546,7 @@ SIMLIB_DB = {
     },
     "Resistive Pipe LP with Variable Elevation": {
         "name": "Resistive Pipe LP with Variable Elevation",
-        "paths": [
-            "sh_lib/Low-Pressure Blocks/Resistive Pipe LP with Variable Elevation"
-        ],
+        "paths": ["sh_lib/Low-Pressure Blocks/Resistive Pipe LP with Variable Elevation"],
     },
     "Segmented Pipe LP": {
         "name": "Segmented Pipe LP",
@@ -10200,9 +9636,7 @@ SIMLIB_DB = {
     },
     "Variable-Displacement Pressure-Compensated Pump": {
         "name": "Variable-Displacement Pressure-Compensated Pump",
-        "paths": [
-            "sh_lib/Pumps and Motors/Variable-Displacement Pressure-Compensated Pump"
-        ],
+        "paths": ["sh_lib/Pumps and Motors/Variable-Displacement Pressure-Compensated Pump"],
     },
     "Variable-Displacement Pump": {
         "name": "Variable-Displacement Pump",
@@ -10275,9 +9709,7 @@ SIMLIB_DB = {
     },
     "Cartridge Valve Insert with Conical Seat": {
         "name": "Cartridge Valve Insert with Conical Seat",
-        "paths": [
-            "sh_lib/Valves/Directional Valves/Cartridge Valve Insert with Conical Seat"
-        ],
+        "paths": ["sh_lib/Valves/Directional Valves/Cartridge Valve Insert with Conical Seat"],
     },
     "Check Valve": {
         "name": "Check Valve",
@@ -10285,9 +9717,7 @@ SIMLIB_DB = {
     },
     "Hydraulically Operated Remote Control Valve": {
         "name": "Hydraulically Operated Remote Control Valve",
-        "paths": [
-            "sh_lib/Valves/Directional Valves/Hydraulically Operated Remote Control Valve"
-        ],
+        "paths": ["sh_lib/Valves/Directional Valves/Hydraulically Operated Remote Control Valve"],
     },
     "Pilot-Operated Check Valve": {
         "name": "Pilot-Operated Check Valve",
@@ -10327,15 +9757,11 @@ SIMLIB_DB = {
     },
     "Pressure-Compensated 3-Way Flow Control Valve": {
         "name": "Pressure-Compensated 3-Way Flow Control Valve",
-        "paths": [
-            "sh_lib/Valves/Flow Control Valves/Pressure-Compensated 3-Way Flow Control Valve"
-        ],
+        "paths": ["sh_lib/Valves/Flow Control Valves/Pressure-Compensated 3-Way Flow Control Valve"],
     },
     "Pressure-Compensated Flow Control Valve": {
         "name": "Pressure-Compensated Flow Control Valve",
-        "paths": [
-            "sh_lib/Valves/Flow Control Valves/Pressure-Compensated Flow Control Valve"
-        ],
+        "paths": ["sh_lib/Valves/Flow Control Valves/Pressure-Compensated Flow Control Valve"],
     },
     "Pressure Compensator": {
         "name": "Pressure Compensator",
@@ -10343,9 +9769,7 @@ SIMLIB_DB = {
     },
     "Pressure Reducing 3-Way Valve": {
         "name": "Pressure Reducing 3-Way Valve",
-        "paths": [
-            "sh_lib/Valves/Pressure Control Valves/Pressure Reducing 3-Way Valve"
-        ],
+        "paths": ["sh_lib/Valves/Pressure Control Valves/Pressure Reducing 3-Way Valve"],
     },
     "Pressure Reducing Valve": {
         "name": "Pressure Reducing Valve",
@@ -10369,21 +9793,15 @@ SIMLIB_DB = {
     },
     "Hydraulic Double-Acting Valve Actuator": {
         "name": "Hydraulic Double-Acting Valve Actuator",
-        "paths": [
-            "sh_lib/Valves/Valve Actuators/Hydraulic Double-Acting Valve Actuator"
-        ],
+        "paths": ["sh_lib/Valves/Valve Actuators/Hydraulic Double-Acting Valve Actuator"],
     },
     "Hydraulic Single-Acting Valve Actuator": {
         "name": "Hydraulic Single-Acting Valve Actuator",
-        "paths": [
-            "sh_lib/Valves/Valve Actuators/Hydraulic Single-Acting Valve Actuator"
-        ],
+        "paths": ["sh_lib/Valves/Valve Actuators/Hydraulic Single-Acting Valve Actuator"],
     },
     "Hydraulic 4-Port Cartridge Valve Actuator": {
         "name": "Hydraulic 4-Port Cartridge Valve Actuator",
-        "paths": [
-            "sh_lib/Valves/Valve Actuators/Hydraulic 4-Port Cartridge Valve Actuator"
-        ],
+        "paths": ["sh_lib/Valves/Valve Actuators/Hydraulic 4-Port Cartridge Valve Actuator"],
     },
     "Hydraulic Cartridge Valve Actuator": {
         "name": "Hydraulic Cartridge Valve Actuator",
@@ -10391,9 +9809,7 @@ SIMLIB_DB = {
     },
     "Proportional and Servo-Valve Actuator": {
         "name": "Proportional and Servo-Valve Actuator",
-        "paths": [
-            "sh_lib/Valves/Valve Actuators/Proportional and Servo-Valve Actuator"
-        ],
+        "paths": ["sh_lib/Valves/Valve Actuators/Proportional and Servo-Valve Actuator"],
     },
     "Valve Actuator": {
         "name": "Valve Actuator",
@@ -10418,15 +9834,11 @@ SIMLIB_DB = {
     },
     "Variable-Displacement Hydraulic Machine": {
         "name": "Variable-Displacement Hydraulic Machine",
-        "paths": [
-            "sh_legacy_lib/Hydraulic Machines/Variable-Displacement Hydraulic Machine"
-        ],
+        "paths": ["sh_legacy_lib/Hydraulic Machines/Variable-Displacement Hydraulic Machine"],
     },
     "Variable-Displacement Hydraulic Machine (External Efficiencies)": {
         "name": "Variable-Displacement Hydraulic Machine (External Efficiencies)",
-        "paths": [
-            "sh_legacy_lib/Hydraulic Machines/Variable-Displacement Hydraulic Machine (External Efficiencies)"
-        ],
+        "paths": ["sh_legacy_lib/Hydraulic Machines/Variable-Displacement Hydraulic Machine (External Efficiencies)"],
     },
     "Fundamental Components": {
         "name": "Fundamental Components",
@@ -10434,27 +9846,19 @@ SIMLIB_DB = {
     },
     "Prediction (discrete->continuous)": {
         "name": "Prediction (discrete->continuous)",
-        "paths": [
-            "SimscapeNetworkCouplersLib/Fundamental Components/Prediction (discrete->continuous)"
-        ],
+        "paths": ["SimscapeNetworkCouplersLib/Fundamental Components/Prediction (discrete->continuous)"],
     },
     "Prediction (slow->fast)": {
         "name": "Prediction (slow->fast)",
-        "paths": [
-            "SimscapeNetworkCouplersLib/Fundamental Components/Prediction (slow->fast)"
-        ],
+        "paths": ["SimscapeNetworkCouplersLib/Fundamental Components/Prediction (slow->fast)"],
     },
     "Smoothing (continuous->discrete)": {
         "name": "Smoothing (continuous->discrete)",
-        "paths": [
-            "SimscapeNetworkCouplersLib/Fundamental Components/Smoothing (continuous->discrete)"
-        ],
+        "paths": ["SimscapeNetworkCouplersLib/Fundamental Components/Smoothing (continuous->discrete)"],
     },
     "Smoothing (fast->slow)": {
         "name": "Smoothing (fast->slow)",
-        "paths": [
-            "SimscapeNetworkCouplersLib/Fundamental Components/Smoothing (fast->slow)"
-        ],
+        "paths": ["SimscapeNetworkCouplersLib/Fundamental Components/Smoothing (fast->slow)"],
     },
     "Network Coupler (Capacitor)": {
         "name": "Network Coupler (Capacitor)",
@@ -10466,15 +9870,11 @@ SIMLIB_DB = {
     },
     "Network Coupler (Constant Volume Chamber (IL))": {
         "name": "Network Coupler (Constant Volume Chamber (IL))",
-        "paths": [
-            "SimscapeNetworkCouplersLib/Network Coupler (Constant Volume Chamber (IL))"
-        ],
+        "paths": ["SimscapeNetworkCouplersLib/Network Coupler (Constant Volume Chamber (IL))"],
     },
     "Network Coupler (Constant Volume Chamber (TL))": {
         "name": "Network Coupler (Constant Volume Chamber (TL))",
-        "paths": [
-            "SimscapeNetworkCouplersLib/Network Coupler (Constant Volume Chamber (TL))"
-        ],
+        "paths": ["SimscapeNetworkCouplersLib/Network Coupler (Constant Volume Chamber (TL))"],
     },
     "Network Coupler (Current-Voltage)": {
         "name": "Network Coupler (Current-Voltage)",
@@ -10527,15 +9927,11 @@ SIMLIB_DB = {
     },
     "Rotational Electromechanical Converter": {
         "name": "Rotational Electromechanical Converter",
-        "paths": [
-            "fl_lib/Electrical/Electrical Elements/Rotational Electromechanical Converter"
-        ],
+        "paths": ["fl_lib/Electrical/Electrical Elements/Rotational Electromechanical Converter"],
     },
     "Translational Electromechanical Converter": {
         "name": "Translational Electromechanical Converter",
-        "paths": [
-            "fl_lib/Electrical/Electrical Elements/Translational Electromechanical Converter"
-        ],
+        "paths": ["fl_lib/Electrical/Electrical Elements/Translational Electromechanical Converter"],
     },
     "Electrical Sensors": {
         "name": "Electrical Sensors",
@@ -10543,27 +9939,19 @@ SIMLIB_DB = {
     },
     "Current-Controlled Current Source": {
         "name": "Current-Controlled Current Source",
-        "paths": [
-            "fl_lib/Electrical/Electrical Sources/Current-Controlled Current Source"
-        ],
+        "paths": ["fl_lib/Electrical/Electrical Sources/Current-Controlled Current Source"],
     },
     "Current-Controlled Voltage Source": {
         "name": "Current-Controlled Voltage Source",
-        "paths": [
-            "fl_lib/Electrical/Electrical Sources/Current-Controlled Voltage Source"
-        ],
+        "paths": ["fl_lib/Electrical/Electrical Sources/Current-Controlled Voltage Source"],
     },
     "Voltage-Controlled Current Source": {
         "name": "Voltage-Controlled Current Source",
-        "paths": [
-            "fl_lib/Electrical/Electrical Sources/Voltage-Controlled Current Source"
-        ],
+        "paths": ["fl_lib/Electrical/Electrical Sources/Voltage-Controlled Current Source"],
     },
     "Voltage-Controlled Voltage Source": {
         "name": "Voltage-Controlled Voltage Source",
-        "paths": [
-            "fl_lib/Electrical/Electrical Sources/Voltage-Controlled Voltage Source"
-        ],
+        "paths": ["fl_lib/Electrical/Electrical Sources/Voltage-Controlled Voltage Source"],
     },
     "Absolute Reference (G)": {
         "name": "Absolute Reference (G)",
@@ -10638,15 +10026,11 @@ SIMLIB_DB = {
     },
     "Constant Area Hydraulic Orifice": {
         "name": "Constant Area Hydraulic Orifice",
-        "paths": [
-            "fl_lib/Hydraulic/Hydraulic Elements/Constant Area Hydraulic Orifice"
-        ],
+        "paths": ["fl_lib/Hydraulic/Hydraulic Elements/Constant Area Hydraulic Orifice"],
     },
     "Constant Volume Hydraulic Chamber": {
         "name": "Constant Volume Hydraulic Chamber",
-        "paths": [
-            "fl_lib/Hydraulic/Hydraulic Elements/Constant Volume Hydraulic Chamber"
-        ],
+        "paths": ["fl_lib/Hydraulic/Hydraulic Elements/Constant Volume Hydraulic Chamber"],
     },
     "Fluid Inertia": {
         "name": "Fluid Inertia",
@@ -10678,21 +10062,15 @@ SIMLIB_DB = {
     },
     "Rotational Hydro-Mechanical Converter": {
         "name": "Rotational Hydro-Mechanical Converter",
-        "paths": [
-            "fl_lib/Hydraulic/Hydraulic Elements/Rotational Hydro-Mechanical Converter"
-        ],
+        "paths": ["fl_lib/Hydraulic/Hydraulic Elements/Rotational Hydro-Mechanical Converter"],
     },
     "Translational Hydro-Mechanical Converter": {
         "name": "Translational Hydro-Mechanical Converter",
-        "paths": [
-            "fl_lib/Hydraulic/Hydraulic Elements/Translational Hydro-Mechanical Converter"
-        ],
+        "paths": ["fl_lib/Hydraulic/Hydraulic Elements/Translational Hydro-Mechanical Converter"],
     },
     "Variable Area Hydraulic Orifice": {
         "name": "Variable Area Hydraulic Orifice",
-        "paths": [
-            "fl_lib/Hydraulic/Hydraulic Elements/Variable Area Hydraulic Orifice"
-        ],
+        "paths": ["fl_lib/Hydraulic/Hydraulic Elements/Variable Area Hydraulic Orifice"],
     },
     "Variable Hydraulic Chamber": {
         "name": "Variable Hydraulic Chamber",
@@ -10716,21 +10094,15 @@ SIMLIB_DB = {
     },
     "Hydraulic Constant Flow Rate Source": {
         "name": "Hydraulic Constant Flow Rate Source",
-        "paths": [
-            "fl_lib/Hydraulic/Hydraulic Sources/Hydraulic Constant Flow Rate Source"
-        ],
+        "paths": ["fl_lib/Hydraulic/Hydraulic Sources/Hydraulic Constant Flow Rate Source"],
     },
     "Hydraulic Constant Mass Flow Rate Source": {
         "name": "Hydraulic Constant Mass Flow Rate Source",
-        "paths": [
-            "fl_lib/Hydraulic/Hydraulic Sources/Hydraulic Constant Mass Flow Rate Source"
-        ],
+        "paths": ["fl_lib/Hydraulic/Hydraulic Sources/Hydraulic Constant Mass Flow Rate Source"],
     },
     "Hydraulic Constant Pressure Source": {
         "name": "Hydraulic Constant Pressure Source",
-        "paths": [
-            "fl_lib/Hydraulic/Hydraulic Sources/Hydraulic Constant Pressure Source"
-        ],
+        "paths": ["fl_lib/Hydraulic/Hydraulic Sources/Hydraulic Constant Pressure Source"],
     },
     "Hydraulic Flow Rate Source": {
         "name": "Hydraulic Flow Rate Source",
@@ -10782,15 +10154,11 @@ SIMLIB_DB = {
     },
     "Rotational Mechanical Converter (IL)": {
         "name": "Rotational Mechanical Converter (IL)",
-        "paths": [
-            "fl_lib/Isothermal Liquid/Elements/Rotational Mechanical Converter (IL)"
-        ],
+        "paths": ["fl_lib/Isothermal Liquid/Elements/Rotational Mechanical Converter (IL)"],
     },
     "Translational Mechanical Converter (IL)": {
         "name": "Translational Mechanical Converter (IL)",
-        "paths": [
-            "fl_lib/Isothermal Liquid/Elements/Translational Mechanical Converter (IL)"
-        ],
+        "paths": ["fl_lib/Isothermal Liquid/Elements/Translational Mechanical Converter (IL)"],
     },
     "Flow Rate Sensor (IL)": {
         "name": "Flow Rate Sensor (IL)",
@@ -10814,9 +10182,7 @@ SIMLIB_DB = {
     },
     "Isothermal Liquid Properties (IL)": {
         "name": "Isothermal Liquid Properties (IL)",
-        "paths": [
-            "fl_lib/Isothermal Liquid/Utilities/Isothermal Liquid Properties (IL)"
-        ],
+        "paths": ["fl_lib/Isothermal Liquid/Utilities/Isothermal Liquid Properties (IL)"],
     },
     "Magnetic": {"name": "Magnetic", "paths": ["fl_lib/Magnetic"]},
     "Magnetic Elements": {
@@ -10889,9 +10255,7 @@ SIMLIB_DB = {
     },
     "Ideal Rotational Motion Sensor": {
         "name": "Ideal Rotational Motion Sensor",
-        "paths": [
-            "fl_lib/Mechanical/Mechanical Sensors/Ideal Rotational Motion Sensor"
-        ],
+        "paths": ["fl_lib/Mechanical/Mechanical Sensors/Ideal Rotational Motion Sensor"],
     },
     "Ideal Torque Sensor": {
         "name": "Ideal Torque Sensor",
@@ -10899,9 +10263,7 @@ SIMLIB_DB = {
     },
     "Ideal Translational Motion Sensor": {
         "name": "Ideal Translational Motion Sensor",
-        "paths": [
-            "fl_lib/Mechanical/Mechanical Sensors/Ideal Translational Motion Sensor"
-        ],
+        "paths": ["fl_lib/Mechanical/Mechanical Sensors/Ideal Translational Motion Sensor"],
     },
     "Mechanical Sources": {
         "name": "Mechanical Sources",
@@ -10921,9 +10283,7 @@ SIMLIB_DB = {
     },
     "Ideal Translational Velocity Source": {
         "name": "Ideal Translational Velocity Source",
-        "paths": [
-            "fl_lib/Mechanical/Mechanical Sources/Ideal Translational Velocity Source"
-        ],
+        "paths": ["fl_lib/Mechanical/Mechanical Sources/Ideal Translational Velocity Source"],
     },
     "Mechanisms": {"name": "Mechanisms", "paths": ["fl_lib/Mechanical/Mechanisms"]},
     "Gear Box": {
@@ -10945,15 +10305,11 @@ SIMLIB_DB = {
     },
     "Rotational Multibody Interface": {
         "name": "Rotational Multibody Interface",
-        "paths": [
-            "fl_lib/Mechanical/Multibody Interfaces/Rotational Multibody Interface"
-        ],
+        "paths": ["fl_lib/Mechanical/Multibody Interfaces/Rotational Multibody Interface"],
     },
     "Translational Multibody Interface": {
         "name": "Translational Multibody Interface",
-        "paths": [
-            "fl_lib/Mechanical/Multibody Interfaces/Translational Multibody Interface"
-        ],
+        "paths": ["fl_lib/Mechanical/Multibody Interfaces/Translational Multibody Interface"],
     },
     "Rotational Elements": {
         "name": "Rotational Elements",
@@ -10968,9 +10324,7 @@ SIMLIB_DB = {
     },
     "Mechanical Rotational Reference": {
         "name": "Mechanical Rotational Reference",
-        "paths": [
-            "fl_lib/Mechanical/Rotational Elements/Mechanical Rotational Reference"
-        ],
+        "paths": ["fl_lib/Mechanical/Rotational Elements/Mechanical Rotational Reference"],
     },
     "Rotational Free End": {
         "name": "Rotational Free End",
@@ -11002,9 +10356,7 @@ SIMLIB_DB = {
     },
     "Mechanical Translational Reference": {
         "name": "Mechanical Translational Reference",
-        "paths": [
-            "fl_lib/Mechanical/Translational Elements/Mechanical Translational Reference"
-        ],
+        "paths": ["fl_lib/Mechanical/Translational Elements/Mechanical Translational Reference"],
     },
     "Translational Friction": {
         "name": "Translational Friction",
@@ -11097,15 +10449,11 @@ SIMLIB_DB = {
     },
     "Moisture Source (MA)": {
         "name": "Moisture Source (MA)",
-        "paths": [
-            "fl_lib/Moist Air/Sources/Moisture & Trace Gas Sources/Moisture Source (MA)"
-        ],
+        "paths": ["fl_lib/Moist Air/Sources/Moisture & Trace Gas Sources/Moisture Source (MA)"],
     },
     "Trace Gas Source (MA)": {
         "name": "Trace Gas Source (MA)",
-        "paths": [
-            "fl_lib/Moist Air/Sources/Moisture & Trace Gas Sources/Trace Gas Source (MA)"
-        ],
+        "paths": ["fl_lib/Moist Air/Sources/Moisture & Trace Gas Sources/Trace Gas Source (MA)"],
     },
     "Pressure Source (MA)": {
         "name": "Pressure Source (MA)",
@@ -11261,15 +10609,11 @@ SIMLIB_DB = {
     },
     "PS Scattered Lookup Table (2D)": {
         "name": "PS Scattered Lookup Table (2D)",
-        "paths": [
-            "fl_lib/Physical Signals/Lookup Tables/PS Scattered Lookup Table (2D)"
-        ],
+        "paths": ["fl_lib/Physical Signals/Lookup Tables/PS Scattered Lookup Table (2D)"],
     },
     "PS Scattered Lookup Table (3D)": {
         "name": "PS Scattered Lookup Table (3D)",
-        "paths": [
-            "fl_lib/Physical Signals/Lookup Tables/PS Scattered Lookup Table (3D)"
-        ],
+        "paths": ["fl_lib/Physical Signals/Lookup Tables/PS Scattered Lookup Table (3D)"],
     },
     "Nonlinear Operators": {
         "name": "Nonlinear Operators",
@@ -11550,15 +10894,11 @@ SIMLIB_DB = {
     },
     "Rotational Mechanical Converter (TL)": {
         "name": "Rotational Mechanical Converter (TL)",
-        "paths": [
-            "fl_lib/Thermal Liquid/Elements/Rotational Mechanical Converter (TL)"
-        ],
+        "paths": ["fl_lib/Thermal Liquid/Elements/Rotational Mechanical Converter (TL)"],
     },
     "Translational Mechanical Converter (TL)": {
         "name": "Translational Mechanical Converter (TL)",
-        "paths": [
-            "fl_lib/Thermal Liquid/Elements/Translational Mechanical Converter (TL)"
-        ],
+        "paths": ["fl_lib/Thermal Liquid/Elements/Translational Mechanical Converter (TL)"],
     },
     "Flow Rate Sensor (TL)": {
         "name": "Flow Rate Sensor (TL)",
@@ -11638,9 +10978,7 @@ SIMLIB_DB = {
     },
     "External Translational Velocity Source (PB)": {
         "name": "External Translational Velocity Source (PB)",
-        "paths": [
-            "fl_lib/Translational/Sources/External Translational Velocity Source (PB)"
-        ],
+        "paths": ["fl_lib/Translational/Sources/External Translational Velocity Source (PB)"],
     },
     "External Force Source (PB)": {
         "name": "External Force Source (PB)",
@@ -11664,9 +11002,7 @@ SIMLIB_DB = {
     },
     "Mechanical Translational Properties (PB)": {
         "name": "Mechanical Translational Properties (PB)",
-        "paths": [
-            "fl_lib/Translational/Utilities/Mechanical Translational Properties (PB)"
-        ],
+        "paths": ["fl_lib/Translational/Utilities/Mechanical Translational Properties (PB)"],
     },
     "Absolute Reference (2P)": {
         "name": "Absolute Reference (2P)",
@@ -11706,15 +11042,11 @@ SIMLIB_DB = {
     },
     "Rotational Mechanical Converter (2P)": {
         "name": "Rotational Mechanical Converter (2P)",
-        "paths": [
-            "fl_lib/Two-Phase Fluid/Elements/Rotational Mechanical Converter (2P)"
-        ],
+        "paths": ["fl_lib/Two-Phase Fluid/Elements/Rotational Mechanical Converter (2P)"],
     },
     "Translational Mechanical Converter (2P)": {
         "name": "Translational Mechanical Converter (2P)",
-        "paths": [
-            "fl_lib/Two-Phase Fluid/Elements/Translational Mechanical Converter (2P)"
-        ],
+        "paths": ["fl_lib/Two-Phase Fluid/Elements/Translational Mechanical Converter (2P)"],
     },
     "Flow Rate Sensor (2P)": {
         "name": "Flow Rate Sensor (2P)",
@@ -11722,9 +11054,7 @@ SIMLIB_DB = {
     },
     "Pressure, Temperature & Internal Energy Sensor (2P)": {
         "name": "Pressure, Temperature & Internal Energy Sensor (2P)",
-        "paths": [
-            "fl_lib/Two-Phase Fluid/Sensors/Pressure, Temperature & Internal Energy Sensor (2P)"
-        ],
+        "paths": ["fl_lib/Two-Phase Fluid/Sensors/Pressure, Temperature & Internal Energy Sensor (2P)"],
     },
     "Saturation Properties Sensor (2P)": {
         "name": "Saturation Properties Sensor (2P)",
@@ -11732,9 +11062,7 @@ SIMLIB_DB = {
     },
     "Thermodynamic Properties Sensor (2P)": {
         "name": "Thermodynamic Properties Sensor (2P)",
-        "paths": [
-            "fl_lib/Two-Phase Fluid/Sensors/Thermodynamic Properties Sensor (2P)"
-        ],
+        "paths": ["fl_lib/Two-Phase Fluid/Sensors/Thermodynamic Properties Sensor (2P)"],
     },
     "Vapor Quality Sensor (2P)": {
         "name": "Vapor Quality Sensor (2P)",
@@ -11758,9 +11086,7 @@ SIMLIB_DB = {
     },
     "Asynchronous Sample & Hold": {
         "name": "Asynchronous Sample & Hold",
-        "paths": [
-            "fl_ps_legacy_lib/Legacy Physical Signals/Discrete/Asynchronous Sample & Hold"
-        ],
+        "paths": ["fl_ps_legacy_lib/Legacy Physical Signals/Discrete/Asynchronous Sample & Hold"],
     },
     "Battery Pack": {"name": "Battery Pack", "paths": ["BatteryPack_lib/Battery Pack"]},
     "battery_cell": {"name": "battery_cell", "paths": ["BatteryPack_lib/battery_cell"]},
@@ -11794,9 +11120,7 @@ SIMLIB_DB = {
     },
     "Chemical to Electrical Converter": {
         "name": "Chemical to Electrical Converter",
-        "paths": [
-            "ElectroChem_lib/Electrochemical Elements/Chemical to Electrical Converter"
-        ],
+        "paths": ["ElectroChem_lib/Electrochemical Elements/Chemical to Electrical Converter"],
     },
     "Electrochemical Sensors": {
         "name": "Electrochemical Sensors",
@@ -11913,9 +11237,7 @@ SIMLIB_DB = {
     },
     "Constant Area Pneumatic Orifice (ISO 6358)": {
         "name": "Constant Area Pneumatic Orifice (ISO 6358)",
-        "paths": [
-            "Pneumatic_lib/Pneumatic Elements/Constant Area Pneumatic Orifice (ISO 6358)"
-        ],
+        "paths": ["Pneumatic_lib/Pneumatic Elements/Constant Area Pneumatic Orifice (ISO 6358)"],
     },
     "Constant Volume Pneumatic Chamber": {
         "name": "Constant Volume Pneumatic Chamber",
@@ -11947,9 +11269,7 @@ SIMLIB_DB = {
     },
     "Rotational Pneumatic- Mechanical Converter": {
         "name": "Rotational Pneumatic- Mechanical Converter",
-        "paths": [
-            "Pneumatic_lib/Pneumatic Elements/Rotational Pneumatic- Mechanical Converter"
-        ],
+        "paths": ["Pneumatic_lib/Pneumatic Elements/Rotational Pneumatic- Mechanical Converter"],
     },
     "Variable Area Pneumatic Orifice": {
         "name": "Variable Area Pneumatic Orifice",
@@ -11965,9 +11285,7 @@ SIMLIB_DB = {
     },
     "Pneumatic Pressure & Temperature Sensor": {
         "name": "Pneumatic Pressure & Temperature Sensor",
-        "paths": [
-            "Pneumatic_lib/Pneumatic Sensors/Pneumatic Pressure & Temperature Sensor"
-        ],
+        "paths": ["Pneumatic_lib/Pneumatic Sensors/Pneumatic Pressure & Temperature Sensor"],
     },
     "Pneumatic Sources": {
         "name": "Pneumatic Sources",
@@ -11975,15 +11293,11 @@ SIMLIB_DB = {
     },
     "Controlled Pneumatic Flow Rate Source": {
         "name": "Controlled Pneumatic Flow Rate Source",
-        "paths": [
-            "Pneumatic_lib/Pneumatic Sources/Controlled Pneumatic Flow Rate Source"
-        ],
+        "paths": ["Pneumatic_lib/Pneumatic Sources/Controlled Pneumatic Flow Rate Source"],
     },
     "Controlled Pneumatic Pressure Source": {
         "name": "Controlled Pneumatic Pressure Source",
-        "paths": [
-            "Pneumatic_lib/Pneumatic Sources/Controlled Pneumatic Pressure Source"
-        ],
+        "paths": ["Pneumatic_lib/Pneumatic Sources/Controlled Pneumatic Pressure Source"],
     },
     "Pneumatic Flow Rate Source": {
         "name": "Pneumatic Flow Rate Source",
@@ -12077,9 +11391,7 @@ SIMLIB_DB = {
     },
     "Flexible Cylindrical Beam": {
         "name": "Flexible Cylindrical Beam",
-        "paths": [
-            "sm_lib/Body Elements/Flexible Bodies/Beams/Flexible Cylindrical Beam"
-        ],
+        "paths": ["sm_lib/Body Elements/Flexible Bodies/Beams/Flexible Cylindrical Beam"],
     },
     "Flexible I Beam": {
         "name": "Flexible I Beam",
@@ -12087,9 +11399,7 @@ SIMLIB_DB = {
     },
     "Flexible Rectangular Beam": {
         "name": "Flexible Rectangular Beam",
-        "paths": [
-            "sm_lib/Body Elements/Flexible Bodies/Beams/Flexible Rectangular Beam"
-        ],
+        "paths": ["sm_lib/Body Elements/Flexible Bodies/Beams/Flexible Rectangular Beam"],
     },
     "Flexible T Beam": {
         "name": "Flexible T Beam",
@@ -12105,9 +11415,7 @@ SIMLIB_DB = {
     },
     "General Flexible Plate": {
         "name": "General Flexible Plate",
-        "paths": [
-            "sm_lib/Body Elements/Flexible Bodies/Plates and Shells/General Flexible Plate"
-        ],
+        "paths": ["sm_lib/Body Elements/Flexible Bodies/Plates and Shells/General Flexible Plate"],
     },
     "Reduced Order Flexible Solid": {
         "name": "Reduced Order Flexible Solid",
@@ -13888,9 +13196,7 @@ SIMLIB_DB = {
     },
     "Longitudinal Wheel with Caliper-Disk Brake": {
         "name": "Longitudinal Wheel with Caliper-Disk Brake",
-        "paths": [
-            "vdynlib/Wheels and Tires/Longitudinal Wheel with Caliper-Disk Brake"
-        ],
+        "paths": ["vdynlib/Wheels and Tires/Longitudinal Wheel with Caliper-Disk Brake"],
     },
     "Longitudinal Wheel with Drum Brake": {
         "name": "Longitudinal Wheel with Drum Brake",

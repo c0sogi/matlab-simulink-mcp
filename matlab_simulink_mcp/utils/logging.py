@@ -65,7 +65,6 @@ class TrailingConsole:
         self.viewer_process = None
 
     def open(self):
-
         if self.viewer_process and self.viewer_process.poll() is None:
             return  # already open
 
@@ -83,11 +82,13 @@ class TrailingConsole:
 
         elif sys.platform == "darwin":  # macOS
             full_cmd = f"tail -n 0 -f '{self.log_file}'"
-            subprocess.run([
-                "osascript",
-                "-e",
-                f'tell application "Terminal" to do script "{full_cmd}"',
-            ])
+            subprocess.run(
+                [
+                    "osascript",
+                    "-e",
+                    f'tell application "Terminal" to do script "{full_cmd}"',
+                ]
+            )
             self.viewer_process = None
         else:  # Linux and others
             candidates = [
@@ -102,11 +103,13 @@ class TrailingConsole:
             if terminal is None:
                 return
 
-            self.viewer_process = subprocess.Popen([
-                terminal,
-                "-e",
-                f"tail -n 0 -f '{self.log_file}'",
-            ])
+            self.viewer_process = subprocess.Popen(
+                [
+                    terminal,
+                    "-e",
+                    f"tail -n 0 -f '{self.log_file}'",
+                ]
+            )
 
     def close(self):
         if self.viewer_process and self.viewer_process.poll() is None:
