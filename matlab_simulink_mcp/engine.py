@@ -59,6 +59,7 @@ class MatlabEngine(metaclass=Singleton["MatlabEngine"]):
             )
 
         #  Add helpers to MATLAB path once
+        self.logger.info(f"Adding helpers to MATLAB path: {self.helpers}")
         eng.addpath(str(self.helpers), nargout=0)
         return eng
 
