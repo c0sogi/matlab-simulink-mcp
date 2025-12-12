@@ -1,11 +1,11 @@
 {
     "mcpServers": {
         "matlab-simulink-mcp": {
-            "command": "uv",
+            "command": "uvx",
             "args": [
-                "run",
-                "-m",
-                "matlab_simulink_mcp.server"
+                "--from",
+                "git+https://github.com/c0sogi/matlab-simulink-mcp.git@v0.1.0",
+                "matlab-simulink-mcp"
             ]
         }
     }
