@@ -31,16 +31,6 @@ class Singleton(type, Generic[_T]):
         return cls._instances[cls]
 
 
-def get_full_path(pkg: types.ModuleType, path: Path) -> Path:
-    """Absolutizes a path relative to a given package. Returns as is if already absolute"""
-    if path.is_absolute():
-        return path
-    pkg_file = pkg.__file__
-    if pkg_file is None:
-        raise ToolError("Package file not found")
-    return (Path(pkg_file).resolve().parent / path).resolve()
-
-
 @dataclass
 class MatlabEngine(metaclass=Singleton["MatlabEngine"]):
     """Singleton for holding MATLAB engine"""
@@ -57,9 +47,7 @@ class MatlabEngine(metaclass=Singleton["MatlabEngine"]):
 
     @cached_property
     def engine(self) -> matlab.engine.MatlabEngine:
-        sessions = matlab.engine.find_matlab()
-
-        if sessions:
+        if sessions := matlab.engine.find_matlab():
             eng = matlab.engine.connect_matlab(sessions[0])  # pyright: ignore[reportUnknownMemberType]
             assert isinstance(eng, matlab.engine.MatlabEngine), (
                 f"Connected MATLAB engine is not of type MatlabEngine: {type(eng)}"
@@ -91,7 +79,11 @@ class MatlabEngine(metaclass=Singleton["MatlabEngine"]):
         return create_logger(name=matlab_simulink_mcp.__name__, log_file=self.log_file)
 
 
-# if __name__ == "__main__":
-#     eng = MatlabEngine().engine
-#     result = eng.validate_code("helpers/describe_system.m", nargout=1)
-#     print(result)
+def get_full_path(pkg: types.ModuleType, path: Path) -> Path:
+    """Absolutizes a path relative to a given package. Returns as is if already absolute"""
+    if path.is_absolute():
+        return path
+    pkg_file = pkg.__file__
+    if pkg_file is None:
+        raise ToolError("Package file not found")
+    return (Path(pkg_file).resolve().parent / path).resolve()

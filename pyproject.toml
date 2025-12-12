@@ -6,8 +6,17 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = ["fastmcp>=2.13.3", "matlabengine"]
 
+[project.optional-dependencies]
+dev = ["pyright", "ruff"]
+
 [tool.uv]
 package = true
+
+[tool.pyright]
+typeCheckingMode = "strict"
+
+[tool.ruff]
+line-length = 120
 
 [project.scripts]
 matlab-simulink-mcp = "matlab_simulink_mcp.server:run"

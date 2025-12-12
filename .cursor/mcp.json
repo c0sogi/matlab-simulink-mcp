@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "matlab-simulink-mcp": {
+            "command": "uv",
+            "args": [
+                "run",
+                "-m",
+                "matlab_simulink_mcp.server"
+            ]
+        }
+    }
+}
