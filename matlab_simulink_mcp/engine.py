@@ -1,23 +1,15 @@
-import logging
-import os
-import sys
-import types
-from dataclasses import dataclass
+from contextlib import ExitStack
+from dataclasses import dataclass, field
 from functools import cached_property
+from importlib.resources import as_file, files
 from pathlib import Path
 from typing import Generic, TypeVar
 
 import matlab.engine  # pyright: ignore[reportMissingTypeStubs]
-from dotenv import load_dotenv
 from fastmcp.exceptions import ToolError
 
-import matlab_simulink_mcp
-from matlab_simulink_mcp.utils.logging import (
-    TrailingConsole,
-    create_console,
-    create_log_file,
-    create_logger,
-)
+from matlab_simulink_mcp.utils.logging import get_logger
+from matlab_simulink_mcp import get_package_name
 
 _T = TypeVar("_T")
 
@@ -33,78 +25,84 @@ class Singleton(type, Generic[_T]):
 
 @dataclass
 class MatlabEngine(metaclass=Singleton["MatlabEngine"]):
-    """Singleton for holding MATLAB engine"""
+    """
+    Singleton for holding MATLAB engine.
 
-    @property
-    def helpers(self) -> Path:
-        helper_path = Path("helpers")
+    Ensures that helper .m files packaged inside the Python package
+    remain available on disk for the entire lifetime of the MATLAB engine,
+    even under PyInstaller one-file / zipimport environments.
+    """
 
-        if getattr(sys, "frozen", False):
-            base_path = Path(getattr(sys, "_MEIPASS")) / "matlab_simulink_mcp"
-            return base_path / helper_path
+    _resource_stack: ExitStack = field(default_factory=ExitStack, init=False)
+    _helpers_dir: Path | None = field(default=None, init=False)
 
-        return get_full_path(matlab_simulink_mcp, helper_path)
+    def _get_helpers_dir(self) -> Path:
+        """
+        Materialize (if needed) and return the helpers directory as a real
+        filesystem path whose lifetime is bound to this MatlabEngine instance.
+        """
+        if self._helpers_dir is not None:
+            return self._helpers_dir
 
-    @cached_property
-    def engine(self) -> matlab.engine.MatlabEngine:
-        if sessions := matlab.engine.find_matlab():
-            eng = matlab.engine.connect_matlab(sessions[0])  # pyright: ignore[reportUnknownMemberType]
-            assert isinstance(eng, matlab.engine.MatlabEngine), (
-                f"Connected MATLAB engine is not of type MatlabEngine: {type(eng)}"
-            )
-        else:
-            eng = matlab.engine.start_matlab()  # pyright: ignore[reportUnknownMemberType]
-            assert isinstance(eng, matlab.engine.MatlabEngine), (
-                f"Started MATLAB engine is not of type MatlabEngine: {type(eng)}"
-            )
+        # helpers is located at: package_root / "helpers"
+        helpers_resource = files(get_package_name()) / "helpers"
 
-        # Add helpers to MATLAB path once (include subfolders).
-        # Helpers are named `mcp_*` to avoid collisions, so we don't need to
-        # place them ahead of toolboxes/current-folder.
-        helpers_dir = self.helpers
+        # Keep the as_file() context alive for the lifetime of this object
+        helpers_dir = self._resource_stack.enter_context(as_file(helpers_resource))
+
         if not helpers_dir.exists():
             raise ToolError(f"MATLAB helper directory not found: {helpers_dir}")
 
-        self.logger.info(f"Adding helpers to MATLAB path: {helpers_dir}")
+        self._helpers_dir = helpers_dir
+        return helpers_dir
+
+    @cached_property
+    def engine(self) -> matlab.engine.MatlabEngine:
+        """
+        Start or connect to a MATLAB engine and ensure helper paths are added.
+        """
+        logger = get_logger()
+
+        # Connect to existing session or start a new one
+        sessions = matlab.engine.find_matlab()
+        if sessions:
+            eng = matlab.engine.connect_matlab(sessions[0])  # pyright: ignore[reportUnknownMemberType]
+            logger.info(f"Connected to existing MATLAB session: {sessions[0]}")
+        else:
+            eng = matlab.engine.start_matlab()  # pyright: ignore[reportUnknownMemberType]
+            logger.info("Started new MATLAB session")
+
+        if not isinstance(eng, matlab.engine.MatlabEngine):
+            raise ToolError(f"MATLAB engine is not MatlabEngine: {type(eng)}")
+
+        # Prepare helpers directory (guaranteed to stay alive)
+        helpers_dir = self._get_helpers_dir()
+
+        logger.info(f"Adding helpers to MATLAB path: {helpers_dir}")
         helper_root = str(helpers_dir)
+
         try:
             helper_paths = eng.genpath(helper_root, nargout=1)
-        except Exception:
+        except Exception as e:
+            logger.error(f"genpath failed, falling back to root only: {e}")
             helper_paths = helper_root
 
-        # Add at end to minimize the chance of shadowing toolbox functions.
-        eng.addpath(helper_paths, "-end", nargout=0)
+        try:
+            eng.addpath(helper_paths, "-end", nargout=0)
+        except Exception as e:
+            raise ToolError(f"addpath failed: {e}") from e
 
-        # Ensure MATLAB sees newly-added .m files immediately
         try:
             eng.rehash(nargout=0)
-        except Exception:
-            pass
+        except Exception as e:
+            logger.warning(f"rehash failed: {e}")
 
         return eng
 
-    @cached_property
-    def log_file(self) -> Path:
-        load_dotenv()
-        return create_log_file(
-            filename=matlab_simulink_mcp.__name__,
-            dir=get_full_path(matlab_simulink_mcp, Path(os.getenv("LOG_DIR", "."))),
-        )
-
-    @cached_property
-    def log_console(self) -> TrailingConsole:
-        return create_console(log_file=self.log_file)
-
-    @cached_property
-    def logger(self) -> logging.Logger:
-        return create_logger(name=matlab_simulink_mcp.__name__, log_file=self.log_file)
-
-
-def get_full_path(pkg: types.ModuleType, path: Path) -> Path:
-    """Absolutizes a path relative to a given package. Returns as is if already absolute"""
-    if path.is_absolute():
-        return path
-    pkg_file = pkg.__file__
-    if pkg_file is None:
-        raise ToolError("Package file not found")
-    return (Path(pkg_file).resolve().parent / path).resolve()
+    def close(self) -> None:
+        """
+        Explicitly release all extracted resources.
+        Call this when the MATLAB engine is no longer needed.
+        """
+        self._resource_stack.close()
+        self._helpers_dir = None
