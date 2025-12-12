@@ -1,0 +1,13 @@
+[project]
+name = "matlab-simulink-mcp"
+version = "0.1.0"
+description = "An MCP server for allowing LLMs to interact with MATLAB and Simulink; forked from https://pypi.org/project/matlab-simulink-mcp/"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["fastmcp>=2.13.3", "matlabengine"]
+
+[tool.uv]
+package = true
+
+[project.scripts]
+matlab-simulink-mcp = "matlab_simulink_mcp.server:run"
