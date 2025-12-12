@@ -6,6 +6,7 @@ from fastmcp import FastMCP
 
 from matlab_simulink_mcp.engine import MatlabEngine
 from matlab_simulink_mcp.tools import matlab_code, simulink
+from matlab_simulink_mcp import get_package_name
 
 console = False
 
@@ -35,7 +36,7 @@ def run(console: bool = False):
 
     try:
         mcp = FastMCP(
-            name="MATLAB_Simulink_MCP",
+            name=get_package_name(),
             lifespan=lifespan,
             instructions=MCP_INSTRUCTION,
         )
