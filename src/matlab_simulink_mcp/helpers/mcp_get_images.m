@@ -6,9 +6,11 @@ function cwds = mcp_get_images()
     else
         cwds = cell(1, num);
         for k = 1:num
-            filename = sprintf('temp_plot_%d.png', k);
+            % Write to a unique temp file to avoid cluttering `pwd` and to reduce
+            % failures when the current working directory is not writable.
+            filename = [tempname '.png'];
             saveas(figs(k), filename);
-            cwds{k} = fullfile(pwd, filename);
+            cwds{k} = filename;
         end 
     end
 end

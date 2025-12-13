@@ -1,5 +1,4 @@
 import asyncio
-import tempfile
 from pathlib import Path
 
 from fastmcp import FastMCP
@@ -109,33 +108,20 @@ def register(mcp: FastMCP) -> None:
         if get_images:
             await asyncio.to_thread(eng.close, "all", nargout=0)
 
-        try:
-            cwd = await asyncio.to_thread(eng.pwd, nargout=1)
-            abs_path = Path(str(cwd)) / "canvas.m"
-            abs_path.parent.mkdir(parents=True, exist_ok=True)
-            with abs_path.open("w") as f:
-                f.write(code)
-            pretext = None
-        except PermissionError:
-            with tempfile.NamedTemporaryFile("w", suffix=".m", delete=False) as f:
-                f.write(code)
-                abs_path = Path(f.name)
-            pretext = "Could not run from current working directory. Running from temporary directory:\n"
-
-        text = clean_evalc(str(await asyncio.to_thread(eng.evalc, f"run('{str(abs_path)}')", nargout=1)))
-        if pretext:
-            text = pretext + text
-
-        abs_path.unlink(missing_ok=True)
+        # Execute directly via evalc to avoid:
+        # - creating any .m files in `pwd` (shadowing risk)
+        # - `run(fullpath)` changing MATLAB's current folder (breaks relative paths across calls)
+        text = clean_evalc(str(await asyncio.to_thread(eng.evalc, code, nargout=1)))
 
         await asyncio.to_thread(eng.mcp_format_system, nargout=0)
 
-        img_paths: list[str] = list(
-            map(
-                str,
-                await asyncio.to_thread(eng.mcp_get_images, nargout=1),  # pyright: ignore[reportArgumentType]
+        if get_images:
+            img_paths: list[str] = list(
+                map(
+                    str,
+                    await asyncio.to_thread(eng.mcp_get_images, nargout=1),  # pyright: ignore[reportArgumentType]
+                )
             )
-        )
-        imgs = [read_and_remove_image(Path(p)) for p in img_paths]
+            imgs = [read_and_remove_image(Path(p)) for p in img_paths]
 
         return (text, *imgs)
