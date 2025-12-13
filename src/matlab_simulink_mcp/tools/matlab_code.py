@@ -16,8 +16,14 @@ def register(mcp: FastMCP) -> None:
     @log_error
     async def read_matlab_code(path: str, open: bool = False) -> str:  # pyright: ignore[reportUnusedFunction]
         """
-        Read the contents of a MATLAB script (.m) or text file.
-        Optionally open the file in MATLAB desktop.
+        Read the contents of a MATLAB script (`.m`) or text file.
+
+        **Input**
+        - `path`: relative path only (no absolute paths, no `..`)
+        - `open`: if True, open the file in MATLAB Desktop editor (best-effort)
+
+        **Returns**
+        - File contents as a string.
         """
 
         eng = MatlabEngine().engine
@@ -31,8 +37,17 @@ def register(mcp: FastMCP) -> None:
     @log_error
     async def save_matlab_code(code: str, path: str, overwrite: bool = False) -> str:  # pyright: ignore[reportUnusedFunction]
         """
-        Validate and save MATLAB code to a .m file.
-        Optionally overwrite if the file already exists.
+        Validate and save MATLAB code to a `.m` file (sandboxed).
+
+        This tool enforces safety rules (forbidden commands/paths) and runs a MATLAB validation helper.
+
+        **Input**
+        - `code`: MATLAB code to write
+        - `path`: relative path only (no absolute paths, no `..`)
+        - `overwrite`: if False, fails when the file exists
+
+        **Returns**
+        - Success message, or a message containing validation errors.
         """
 
         eng = MatlabEngine().engine
@@ -64,8 +79,26 @@ def register(mcp: FastMCP) -> None:
         code: str, get_images: bool = False
     ) -> tuple[str, *tuple[Image, ...]]:
         """
-        Execute MATLAB code and return command window output as a string and images (if asked).
-        Interact programatically with Simulink if the action is not covered by a tool.
+        Execute MATLAB code (sandboxed) and return MATLAB command-window output.
+
+        Use this tool when you need MATLAB/Simulink actions not covered by a dedicated tool
+        (e.g. building models, changing parameters, running simulations).
+
+        **Safety**
+        - Forbidden commands are rejected (e.g. `addpath`, `rehash`, `system`, `dos`, `unix`, `cd`, `which`, etc.).
+        - Absolute paths and `..` paths inside string literals are rejected.
+
+        **Images**
+        - If `get_images=True`, the server will collect figures created during execution and return them as images.
+
+        **Return**
+        - First item: cleaned command-window text output
+        - Then 0+ images (when `get_images=True`)
+
+        **Example**
+        - Create and inspect a model:
+          - `new_system('m'); add_block('built-in/Gain','m/G'); save_system('m');`
+          - then call `read_simulink_system('m', detail=False)`
         """
 
         eng = MatlabEngine().engine

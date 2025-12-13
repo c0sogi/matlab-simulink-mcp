@@ -88,9 +88,18 @@ class MatlabEngine(metaclass=Singleton["MatlabEngine"]):
             helper_paths = helper_root
 
         try:
-            eng.addpath(helper_paths, "-end", nargout=0)
+            # Put our packaged helpers at the *front* of the MATLAB path so they
+            # reliably shadow any older copies from other installs/locations.
+            eng.addpath(helper_paths, "-begin", nargout=0)
         except Exception as e:
             raise ToolError(f"addpath failed: {e}") from e
+
+        try:
+            # When connecting to an existing session, MATLAB may have cached
+            # function resolutions; clear them so updated helpers take effect.
+            eng.eval("clear functions", nargout=0)
+        except Exception as e:
+            logger.warning(f"clear functions failed: {e}")
 
         try:
             eng.rehash(nargout=0)

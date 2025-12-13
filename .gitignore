@@ -11,3 +11,9 @@ wheels/
 
 # Artifacts
 *.log
+
+# Simulink / tests temp artifacts
+tests/_tmp_mcp/
+*.slx
+*.slxc
+slprj/
